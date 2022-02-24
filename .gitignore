@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# for me
+.txt
+
 # testing
 /coverage
 

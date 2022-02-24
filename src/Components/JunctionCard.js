@@ -15,6 +15,7 @@ const JunctionCard = ({ dataCard }) => {
       fontSize: "29px",
       display: "inline",
       align: "center",
+      color: "white"
     },
     circuito: {
       backgroundColor: "white",
@@ -63,7 +64,8 @@ const JunctionCard = ({ dataCard }) => {
     <Container style={styles.card}>
       <Row>
         <Col xs="8">
-          <p style={styles.title}> {dataCard.name}.js</p>
+          {/* <p style={styles.title}> {dataCard.name}.js</p> */}
+          <a target="_blank" href={dataCard.path} style={styles.title}> {dataCard.name}.js</a>
           <input
             style={styles.checkbox}
             type="checkbox"

@@ -1,0 +1,17 @@
+Lineas invalidas:
+
+-cuando hay un salto de linea 
++ "/femp/do/ux/comex/cierre/cambio/resumenCotizacion?"
+
+_modal_manager.AddImage('/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_3.png', '3');
+
+var contentTR = '<tr class="odd" id="row1"><td align="center">' + cbu + '</td><td align="center">' + descBanco + '</td><td align="center"><a href="javascript:doBotonEliminar("row1");"><img src="/femp/images/trash.gif" border="0" /></a></td></tr>';
+
+-cuando asignan como propiedad de una etiqueta html
+
+-cuando asignan una propiedad de una etiqueta html mediante jquery -> $("#form").attr(..., /femp)
+
+-cuando usan redirect o redireccionar, verificar si está definida en el archivo y si tiene junction, si no está definida usan la global así que es una línea válida
+
+-si es párametro de una función, buscar si está definida en el archivo y verificar si hay junction en la línea que se usa el parámetro
+
