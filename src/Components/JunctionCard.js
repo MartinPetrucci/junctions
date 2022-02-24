@@ -19,8 +19,8 @@ const JunctionCard = ({ dataCard }) => {
     circuito: {
       backgroundColor: "white",
       color: "black",
-      width: "45%",
-      borderRadius: "5px"
+      width: "55%",
+      borderRadius: "4px",
     },
     checkbox: {
       display: "inline",

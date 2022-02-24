@@ -5,11 +5,12 @@
     "errors": [
       {
         "content": "\t\turl: \u0027/femp/do/ux/administracion/documentos/firma/rechazar?\u0027 + $.param(filtrosRechazo),",
-        "id": 9278,
+        "id": 9788,
         "solved": false,
         "line": 42
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "administracion\\documentos"
@@ -20,11 +21,12 @@
     "errors": [
       {
         "content": "\t\turl: \u0027/femp/do/ux/administracion/documentos/firma/cancelarFirma?\u0027 + $.param(filters),",
-        "id": 7424,
+        "id": 8953,
         "solved": false,
         "line": 20
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "administracion\\documentos"
@@ -35,17 +37,18 @@
     "errors": [
       {
         "content": "\t\t\t\turl: \"/femp/do/ux/avisos/mensajes/saveSubscripcion\",\t",
-        "id": 8273,
+        "id": 7488,
         "solved": false,
         "line": 19
       },
       {
         "content": "\t\t\turl: \"/femp/do/ux/avisos/mensajes/saveAgenda\",\t",
-        "id": 7509,
+        "id": 5679,
         "solved": false,
         "line": 53
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "avisos\\mensajes"
@@ -56,29 +59,30 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 9771,
+        "id": 6278,
         "solved": false,
         "line": 10
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));",
-        "id": 8066,
+        "id": 6467,
         "solved": false,
         "line": 19
       },
       {
         "content": "    \t\t\t\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 9682,
+        "id": 8529,
         "solved": false,
         "line": 41
       },
       {
         "content": "\tredireccionar(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/terminos/ver\");",
-        "id": 5560,
+        "id": 5546,
         "solved": false,
         "line": 64
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -89,11 +93,12 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));",
-        "id": 6043,
+        "id": 5807,
         "solved": false,
         "line": 7
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -104,23 +109,24 @@
     "errors": [
       {
         "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/realizados?\"+jQuery.param(filters));\t",
-        "id": 5023,
+        "id": 7550,
         "solved": false,
         "line": 171
       },
       {
         "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));\t",
-        "id": 9814,
+        "id": 6015,
         "solved": false,
         "line": 173
       },
       {
         "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelLiquidaciones?\"+jQuery.param(filters));",
-        "id": 9687,
+        "id": 6763,
         "solved": false,
         "line": 187
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -131,29 +137,30 @@
     "errors": [
       {
         "content": "\t\t\t.concat(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/list/propuestas\");",
-        "id": 6410,
+        "id": 8034,
         "solved": false,
         "line": 18
       },
       {
         "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+ jQuery.param(filters));",
-        "id": 9432,
+        "id": 9272,
         "solved": false,
         "line": 226
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+ jQuery.param(filters));",
-        "id": 6473,
+        "id": 9722,
         "solved": false,
         "line": 275
       },
       {
         "content": "\t\t\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/listSimulaciones?\"+ jQuery.param(filters));},",
-        "id": 5202,
+        "id": 6281,
         "solved": false,
         "line": 358
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -164,35 +171,36 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));\t",
-        "id": 8654,
+        "id": 7104,
         "solved": false,
         "line": 168
       },
       {
         "content": "    \t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 5560,
+        "id": 9900,
         "solved": false,
         "line": 177
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/realizados?\"+jQuery.param(filters));",
-        "id": 7259,
+        "id": 8118,
         "solved": false,
         "line": 183
       },
       {
         "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelPendientes?\"+jQuery.param(filters));",
-        "id": 8617,
+        "id": 9469,
         "solved": false,
         "line": 188
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/liquidaciones?\"+jQuery.param(filters));",
-        "id": 5322,
+        "id": 8643,
         "solved": false,
         "line": 239
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -203,47 +211,48 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/realizados?\"+jQuery.param(filters));",
-        "id": 6617,
+        "id": 6036,
         "solved": false,
         "line": 174
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 5456,
+        "id": 6090,
         "solved": false,
         "line": 180
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));",
-        "id": 5231,
+        "id": 6039,
         "solved": false,
         "line": 193
       },
       {
         "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelRealizados?\"+jQuery.param(filters));",
-        "id": 9067,
+        "id": 6246,
         "solved": false,
         "line": 197
       },
       {
         "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelConciliacion?\"+jQuery.param(filtrosConciliacion));",
-        "id": 8519,
+        "id": 9372,
         "solved": false,
         "line": 203
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/liquidaciones?\"+jQuery.param(filters));",
-        "id": 5918,
+        "id": 5213,
         "solved": false,
         "line": 256
       },
       {
         "content": "    \tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarPdfRealizados?\"+jQuery.param(filters));",
-        "id": 5612,
+        "id": 9008,
         "solved": false,
         "line": 272
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -254,17 +263,18 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\" + jQuery.param(filters));",
-        "id": 7629,
+        "id": 5441,
         "solved": false,
         "line": 58
       },
       {
         "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\" + jQuery.param(filters));",
-        "id": 8386,
+        "id": 6928,
         "solved": false,
         "line": 74
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\adelanto"
@@ -275,11 +285,12 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/do/ux/comercios/tramites/altaComercio/confirmacion\",",
-        "id": 5903,
+        "id": 5348,
         "solved": false,
         "line": 7
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\tramites"
@@ -290,17 +301,18 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/do/ux/comercios/tramites/altaComercio/agregarDocumento?\" + jQuery.param(filters),",
-        "id": 7831,
+        "id": 8872,
         "solved": false,
         "line": 25
       },
       {
         "content": "\t\turl: \"/femp/do/ux/comercios/tramites/altaComercio/eliminarDocumento?\" + jQuery.param(filters),",
-        "id": 8835,
+        "id": 6180,
         "solved": false,
         "line": 46
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comercios\\tramites"
@@ -311,11 +323,12 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 8340,
+        "id": 8454,
         "solved": false,
         "line": 310
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comex\\calendarizacion"
@@ -326,17 +339,18 @@
     "errors": [
       {
         "content": "\t\turl : \u0027/femp/do/ux/comex/cierre/cambio/aceptarTipoCambio?\u0027 + $.param(filters),",
-        "id": 9637,
+        "id": 8859,
         "solved": false,
         "line": 10
       },
       {
         "content": "\t\t\t\t\t+ \"/femp/do/ux/comex/cierre/cambio/cierreCambio-firmar?\"",
-        "id": 9921,
+        "id": 9915,
         "solved": false,
         "line": 15
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comex\\cierre"
@@ -347,52 +361,53 @@
     "errors": [
       {
         "content": "\t\turl : \u0027/femp/do/ux/comex/cierre/cambio/caducoOperacion?\u0027 + jQuery.param(filters),",
-        "id": 6125,
+        "id": 9304,
         "solved": false,
         "line": 192
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/eliminarPendiente?\u0027 + jQuery.param(filters),",
-        "id": 9598,
+        "id": 7532,
         "solved": false,
         "line": 218
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?\u0027 + jQuery.param(filters),",
-        "id": 5188,
+        "id": 8334,
         "solved": false,
         "line": 460
       },
       {
         "content": "\t\t\t\t+ \"/femp/do/ux/comex/cierre/cambio/resumenCotizacion?\"",
-        "id": 9047,
+        "id": 6150,
         "solved": false,
         "line": 466
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/obtenerTiposOperaciones?tipoOperacion=\u0027.concat(tipoOperacion) ,",
-        "id": 6139,
+        "id": 8913,
         "solved": false,
         "line": 478
       },
       {
         "content": "\t\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?\u0027  + jQuery.param(filters),",
-        "id": 6967,
+        "id": 7751,
         "solved": false,
         "line": 841
       },
       {
         "content": "\t\t\t\t\t+ \"/femp/do/ux/comex/cierre/cambio/resumenCotizacion?\"",
-        "id": 6603,
+        "id": 5827,
         "solved": false,
         "line": 847
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URI = \u0027/femp/do/ux/comex/cierre/cambio\u0027;",
-        "id": 4788,
+        "id": 4327,
         "solved": false,
         "line": 6
       }
@@ -405,16 +420,17 @@
     "errors": [
       {
         "content": "\t\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 6065,
+        "id": 5640,
         "solved": false,
         "line": 431
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 2449,
+        "id": 3148,
         "solved": false,
         "line": 3
       }
@@ -427,16 +443,17 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 8272,
+        "id": 5767,
         "solved": false,
         "line": 226
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 2369,
+        "id": 2338,
         "solved": false,
         "line": 3
       }
@@ -449,16 +466,17 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 6635,
+        "id": 9546,
         "solved": false,
         "line": 1242
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var PATH_URL = \u0027/femp/do/ux/comex/modulos/DBDE1\u0027;",
-        "id": 3394,
+        "id": 2354,
         "solved": false,
         "line": 1
       }
@@ -471,16 +489,40 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9306,
+        "id": 9617,
         "solved": false,
         "line": 613
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var PATH_URL = \u0027/femp/do/ux/comex/modulos/DBFA1\u0027;",
-        "id": 274,
+        "id": 2681,
+        "solved": false,
+        "line": 1
+      }
+    ],
+    "circuito": "comex\\modulos"
+  },
+  {
+    "name": "DBSI1_DatosBasicosSI",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\modulos\\js\\DBSI1_DatosBasicosSI.js",
+    "errors": [
+      {
+        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
+        "id": 9041,
+        "solved": false,
+        "line": 586
+      }
+    ],
+    "show": true,
+    "solved": false,
+    "variables": [
+      {
+        "content": "var PATH_URL = \u0027/femp/do/ux/comex/modulos/DBSI1\u0027;",
+        "id": 999,
         "solved": false,
         "line": 1
       }
@@ -493,16 +535,17 @@
     "errors": [
       {
         "content": "\t\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 5144,
+        "id": 7780,
         "solved": false,
         "line": 240
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 4223,
+        "id": 3781,
         "solved": false,
         "line": 3
       }
@@ -515,16 +558,17 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 7958,
+        "id": 5490,
         "solved": false,
         "line": 122
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 2391,
+        "id": 2523,
         "solved": false,
         "line": 2
       }
@@ -537,16 +581,17 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 6509,
+        "id": 9143,
         "solved": false,
         "line": 341
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 3477,
+        "id": 112,
         "solved": false,
         "line": 3
       }
@@ -559,16 +604,17 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 8971,
+        "id": 9306,
         "solved": false,
         "line": 307
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 3050,
+        "id": 658,
         "solved": false,
         "line": 3
       }
@@ -581,28 +627,29 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 5118,
+        "id": 9360,
         "solved": false,
         "line": 502
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL_CIRCUITO = \u0027/femp/do/ux/comex/transferencia\u0027;",
-        "id": 4177,
+        "id": 1130,
         "solved": false,
         "line": 2
       },
       {
         "content": "var URL_VOLVER = \u0027/femp/do/ux/comex/transferencia/inicio\u0027;",
-        "id": 2434,
+        "id": 2658,
         "solved": false,
         "line": 3
       },
       {
         "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 4511,
+        "id": 3426,
         "solved": false,
         "line": 4
       }
@@ -615,11 +662,12 @@
     "errors": [
       {
         "content": "\t\tredireccionar(\"/femp/do/ux/cuentas/acuerdos/inicio?\",filters);",
-        "id": 9937,
+        "id": 5963,
         "solved": false,
         "line": 5
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "cuentas\\acuerdos"
@@ -630,29 +678,30 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaConfirmar?\" + $.param(params),",
-        "id": 9699,
+        "id": 8143,
         "solved": false,
         "line": 7
       },
       {
         "content": "\t\turl: \"/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaPopUp?\" + $.param(params),",
-        "id": 9301,
+        "id": 7697,
         "solved": false,
         "line": 44
       },
       {
         "content": "\tredireccionar(\"/femp/do/ux/cuentas/altaCuentas/constitucion/terminos/ver\");",
-        "id": 8423,
+        "id": 8722,
         "solved": false,
         "line": 77
       },
       {
         "content": "\t\tpreAltaConfirmar(filters, \"/femp/do/ux/cuentas/altaCuentas/constitucion/verificarAltaPendienteDeFirma?\");",
-        "id": 6972,
+        "id": 6800,
         "solved": false,
         "line": 100
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "cuentas\\altaCuentas"
@@ -663,22 +712,23 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/altaIntervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 7867,
+        "id": 9684,
         "solved": false,
         "line": 15
       },
       {
         "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/altaIntervinientes/desvinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 6547,
+        "id": 6326,
         "solved": false,
         "line": 36
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL = \u0027/femp/do/ux/cuentas/altaIntervinientes/desvinculacion\u0027;",
-        "id": 3528,
+        "id": 4570,
         "solved": false,
         "line": 3
       }
@@ -691,28 +741,29 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/altaIntervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 6893,
+        "id": 7591,
         "solved": false,
         "line": 61
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 8075,
+        "id": 7861,
         "solved": false,
         "line": 75
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL = \u0027/femp/do/ux/cuentas/altaIntervinientes/nuevo\u0027;",
-        "id": 4141,
+        "id": 3404,
         "solved": false,
         "line": 3
       },
       {
         "content": "var URL_SIGUIENTE = \u0027/femp/do/ux/cuentas/altaIntervinientes/vinculacion\u0027;",
-        "id": 4481,
+        "id": 3829,
         "solved": false,
         "line": 4
       }
@@ -725,22 +776,23 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 5125,
+        "id": 7683,
         "solved": false,
         "line": 44
       },
       {
         "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/altaIntervinientes/vinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 7465,
+        "id": 5092,
         "solved": false,
         "line": 65
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL = \u0027/femp/do/ux/cuentas/altaIntervinientes/vinculacion\u0027;",
-        "id": 62,
+        "id": 3452,
         "solved": false,
         "line": 3
       }
@@ -753,22 +805,23 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 9492,
+        "id": 9470,
         "solved": false,
         "line": 15
       },
       {
         "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/intervinientes/desvinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 6124,
+        "id": 8874,
         "solved": false,
         "line": 36
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL = \u0027/femp/do/ux/cuentas/intervinientes/desvinculacion\u0027;",
-        "id": 1761,
+        "id": 2694,
         "solved": false,
         "line": 3
       }
@@ -781,22 +834,23 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 5252,
+        "id": 5578,
         "solved": false,
         "line": 58
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 9717,
+        "id": 5457,
         "solved": false,
         "line": 67
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL = \u0027/femp/do/ux/cuentas/intervinientes/nuevo\u0027;",
-        "id": 1467,
+        "id": 1297,
         "solved": false,
         "line": 3
       }
@@ -809,22 +863,23 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 9288,
+        "id": 5150,
         "solved": false,
         "line": 16
       },
       {
         "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/intervinientes/vinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 5443,
+        "id": 5500,
         "solved": false,
         "line": 37
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URL = \u0027/femp/do/ux/cuentas/intervinientes/vinculacion\u0027;",
-        "id": 3046,
+        "id": 1890,
         "solved": false,
         "line": 3
       }
@@ -837,22 +892,23 @@
     "errors": [
       {
         "content": "\t\tvar load = \"\u003ctable class=\u0027table\u0027\u003e\u003ctr\u003e\u003ctd colspan=\u00277\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\";",
-        "id": 5776,
+        "id": 6548,
         "solved": false,
         "line": 83
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=7069\u0026pb_url=/do/ux/pagos/reversas/tarjetas/inicio?nuevoContexto=true\u0026\".concat($.param(params));",
-        "id": 4591,
+        "id": 3760,
         "solved": false,
         "line": 255
       },
       {
         "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=7069\u0026pb_url=/do/ux/pagos/reversas/prestamos/inicio?nuevoContexto=true\u0026\".concat($.param(params));",
-        "id": 115,
+        "id": 1450,
         "solved": false,
         "line": 275
       }
@@ -865,16 +921,17 @@
     "errors": [
       {
         "content": "\t\thtmlfileload(\u0027/femp/ux2/js/portada-parent.js\u0027, \u0027js\u0027, true);",
-        "id": 8221,
+        "id": 8751,
         "solved": false,
         "line": 592
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URI = \u0027/femp/do/ux/cuentas/portada\u0027;",
-        "id": 4441,
+        "id": 629,
         "solved": false,
         "line": 2
       }
@@ -887,46 +944,47 @@
     "errors": [
       {
         "content": "\tredireccionar((\u0027/femp/do/ux/cuentas/portadaV2?refIdEmpresa=\u0027).concat($(\u0027#refIdEmpresa\u0027).val()));",
-        "id": 8465,
+        "id": 9907,
         "solved": false,
         "line": 82
       },
       {
         "content": "\t\thtmlfileload(\u0027/femp/resources/temas/coronita/js/portada-parent.js\u0027, \u0027js\u0027, true);",
-        "id": 6235,
+        "id": 7225,
         "solved": false,
         "line": 727
       },
       {
         "content": "\t\t    \turl: \u0027/femp/do/ux/cuentas/campania/enviarMailCampania\u0027,",
-        "id": 5353,
+        "id": 6044,
         "solved": false,
         "line": 884
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "var URI = \u0027/femp/do/ux/cuentas/portada\u0027;",
-        "id": 4549,
+        "id": 385,
         "solved": false,
         "line": 3
       },
       {
         "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=8600\u0026pb_url=/do/ux/pagos/haberes/alta/pago/sueldo/pago?nuevoContexto=true\u0026\".concat($.param(data));",
-        "id": 2302,
+        "id": 322,
         "solved": false,
         "line": 59
       },
       {
         "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=8600\u0026pb_url=/do/ux/cuentas/campania/alta?\".concat($.param(data));",
-        "id": 1828,
+        "id": 1343,
         "solved": false,
         "line": 70
       },
       {
         "content": "\tvar URI_AUX = \u0027/femp/do/ux/cuentas\u0027;",
-        "id": 2543,
+        "id": 2165,
         "solved": false,
         "line": 692
       }
@@ -939,52 +997,53 @@
     "errors": [
       {
         "content": "\tredirect(\"/femp/do/ux/cuentas/vincular_cuenta_psp?\" + jQuery.param(filters));",
-        "id": 6062,
+        "id": 8766,
         "solved": false,
         "line": 24
       },
       {
         "content": "\tredirect(\"/femp/do/ux/cuentas/vincular_cuenta_psp?\" + jQuery.param(filters));",
-        "id": 5732,
+        "id": 6727,
         "solved": false,
         "line": 31
       },
       {
         "content": "\tredirect(\"/femp/do/ux/cuentas/alta_masiva?\" + jQuery.param(filters));",
-        "id": 5058,
+        "id": 7136,
         "solved": false,
         "line": 38
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 9356,
+        "id": 6178,
         "solved": false,
         "line": 263
       },
       {
         "content": "\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 5830,
+        "id": 5212,
         "solved": false,
         "line": 341
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\tvar urlDescarga = \"/femp/do/ux/cuentas/descargar_archivo\";",
-        "id": 1064,
+        "id": 2910,
         "solved": false,
         "line": 56
       },
       {
         "content": "\tvar urlDescarga = \"/femp/do/ux/cuentas/descargar_archivo_respuesta\";",
-        "id": 1035,
+        "id": 1772,
         "solved": false,
         "line": 92
       },
       {
         "content": "\t\tvar urlVinculacion = \"/femp/do/ux/cuentas/pendiente_gestion_apikey\";",
-        "id": 3351,
+        "id": 3379,
         "solved": false,
         "line": 323
       }
@@ -997,70 +1056,71 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/tyc?\" + jQuery.param(filters));",
-        "id": 5603,
+        "id": 8721,
         "solved": false,
         "line": 87
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/adherir_servicio?\" + jQuery.param(filters));",
-        "id": 5611,
+        "id": 6042,
         "solved": false,
         "line": 93
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 5835,
+        "id": 9544,
         "solved": false,
         "line": 99
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 5259,
+        "id": 6768,
         "solved": false,
         "line": 106
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 7006,
+        "id": 7772,
         "solved": false,
         "line": 112
       },
       {
         "content": "\t\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 6383,
+        "id": 8230,
         "solved": false,
         "line": 135
       },
       {
         "content": "\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 6358,
+        "id": 9599,
         "solved": false,
         "line": 167
       },
       {
         "content": "\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 8304,
+        "id": 7814,
         "solved": false,
         "line": 205
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\t\tvar urlAlta = \"/femp/do/ux/cuentas/pendiente_firma_alta_psp\";",
-        "id": 3840,
+        "id": 481,
         "solved": false,
         "line": 117
       },
       {
         "content": "\t\tvar urlVinculacion = \"/femp/do/ux/cuentas/pendiente_vincular_cuenta_psp\";",
-        "id": 4312,
+        "id": 385,
         "solved": false,
         "line": 149
       },
       {
         "content": "\t\tvar urlModificacion = \"/femp/do/ux/cuentas/pendiente_modificar_cuenta_psp\";",
-        "id": 3378,
+        "id": 4249,
         "solved": false,
         "line": 187
       }
@@ -1073,11 +1133,12 @@
     "errors": [
       {
         "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 5510,
+        "id": 8861,
         "solved": false,
         "line": 264
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "eresumen"
@@ -1088,17 +1149,18 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/exencion/impositiva/listado?\"+jQuery.param(filters));",
-        "id": 5795,
+        "id": 5630,
         "solved": false,
         "line": 23
       },
       {
         "content": "\t        url: \"/femp/do/ux/exencion/impositiva/validarSolicitud\",",
-        "id": 7134,
+        "id": 6523,
         "solved": false,
         "line": 42
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "exencion\\impositiva"
@@ -1109,35 +1171,36 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/exencion/impositiva/inicio?\"+jQuery.param(filters));",
-        "id": 6675,
+        "id": 5273,
         "solved": false,
         "line": 43
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/condicion/impositiva/inicio?\"+jQuery.param(filters));",
-        "id": 7580,
+        "id": 6681,
         "solved": false,
         "line": 48
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/exencion/impositiva/listado?\"+jQuery.param(filters));",
-        "id": 8860,
+        "id": 5022,
         "solved": false,
         "line": 54
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/utilidades/cargaDocumentacion/subida/actualizarCondicionImpositiva?\" + jQuery.param(filters));",
-        "id": 6481,
+        "id": 9287,
         "solved": false,
         "line": 101
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/cuentas/portada/buscarEjecutivoDeCuenta\u0027,",
-        "id": 8213,
+        "id": 7364,
         "solved": false,
         "line": 127
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "exencion\\impositiva"
@@ -1148,11 +1211,12 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/financiacion/calificacion/inicio?\"+jQuery.param(filters));",
-        "id": 7062,
+        "id": 9619,
         "solved": false,
         "line": 24
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "financiacion\\calificacion"
@@ -1163,11 +1227,12 @@
     "errors": [
       {
         "content": "var URL=\u0027/femp/do/ux/financiacion/leasing/gestion\u0027",
-        "id": 5257,
+        "id": 6590,
         "solved": false,
         "line": 13
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "financiacion\\leasing"
@@ -1178,11 +1243,12 @@
     "errors": [
       {
         "content": "\tredirect(\"/femp/do/ux/inversiones/custodia/asociar/inicio?\"+jQuery.param(filters));\t",
-        "id": 9641,
+        "id": 8540,
         "solved": false,
         "line": 12
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones\\custodia"
@@ -1193,17 +1259,18 @@
     "errors": [
       {
         "content": "\t\t\t$(\"#altaInstruccionesForm\").attr(\"action\", \"/femp/do/ux/inversiones/instrucciones/plazofijo/altaFirmar\");",
-        "id": 7111,
+        "id": 6547,
         "solved": false,
         "line": 157
       },
       {
         "content": "\t\t\t$(\"#altaInstruccionesForm\").attr(\"action\", \"/femp/do/ux/inversiones/instrucciones/plazofijo/alta\");",
-        "id": 7538,
+        "id": 8529,
         "solved": false,
         "line": 176
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones\\instrucciones"
@@ -1214,11 +1281,12 @@
     "errors": [
       {
         "content": "\t\t\t$(\"#altaInstruccionesForm\").attr(\"action\", \"/femp/do/ux/inversiones/instrucciones/plazofijo/renovar\");",
-        "id": 6099,
+        "id": 6253,
         "solved": false,
         "line": 109
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones\\instrucciones"
@@ -1229,35 +1297,36 @@
     "errors": [
       {
         "content": "\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularImporte\",",
-        "id": 5935,
+        "id": 7539,
         "solved": false,
         "line": 243
       },
       {
         "content": "\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularCantidadNominal\",",
-        "id": 7159,
+        "id": 7674,
         "solved": false,
         "line": 261
       },
       {
         "content": "\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/bancos?\"+jQuery.param(filters),",
-        "id": 8491,
+        "id": 7857,
         "solved": false,
         "line": 391
       },
       {
         "content": "\t\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?\"+jQuery.param(filters),",
-        "id": 7713,
+        "id": 8778,
         "solved": false,
         "line": 417
       },
       {
         "content": "\t\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?\"+jQuery.param(filters),",
-        "id": 5579,
+        "id": 7999,
         "solved": false,
         "line": 450
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones\\instrucciones"
@@ -1268,11 +1337,12 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/monitor/inicio?modo=\".concat(modo));",
-        "id": 9464,
+        "id": 5840,
         "solved": false,
         "line": 87
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "monitor"
@@ -1283,28 +1353,29 @@
     "errors": [
       {
         "content": "            \"url\": \"/femp/ux3/assets/datatables/plug-ins/Spanish.json\"",
-        "id": 8935,
+        "id": 5698,
         "solved": false,
         "line": 254
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "    let url = \"/femp/do/ux/monitor/list\";",
-        "id": 531,
+        "id": 3405,
         "solved": false,
         "line": 308
       },
       {
         "content": "    let url = \"/femp/do/ux/monitor/find/porcentajeGlobal\";",
-        "id": 4565,
+        "id": 1974,
         "solved": false,
         "line": 335
       },
       {
         "content": "    let url = \"/femp/do/ux/monitor/find/titulos\";",
-        "id": 4370,
+        "id": 3540,
         "solved": false,
         "line": 565
       }
@@ -1317,11 +1388,12 @@
     "errors": [
       {
         "content": "        redireccionar(\u0027/femp/do/ux/operaciones/ivr/inicio\u0027);",
-        "id": 7140,
+        "id": 9627,
         "solved": false,
         "line": 51
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\ivr"
@@ -1332,11 +1404,12 @@
     "errors": [
       {
         "content": "\t\tredireccionar(\"/femp/do/ux/operaciones/ivr/inicio\");",
-        "id": 9254,
+        "id": 8082,
         "solved": false,
         "line": 37
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\ivr"
@@ -1347,11 +1420,12 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 8315,
+        "id": 5207,
         "solved": false,
         "line": 2
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\recuperoDocumentacion"
@@ -1362,11 +1436,12 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 6454,
+        "id": 7227,
         "solved": false,
         "line": 2
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\recuperoDocumentacion"
@@ -1377,11 +1452,12 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 9536,
+        "id": 7594,
         "solved": false,
         "line": 2
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\recuperoDocumentacion"
@@ -1392,11 +1468,12 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 9687,
+        "id": 8436,
         "solved": false,
         "line": 5
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\recuperoDocumentacion"
@@ -1407,11 +1484,12 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 7490,
+        "id": 9214,
         "solved": false,
         "line": 2
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\recuperoDocumentacion"
@@ -1422,11 +1500,12 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 8086,
+        "id": 9179,
         "solved": false,
         "line": 2
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "operaciones\\recuperoDocumentacion"
@@ -1437,40 +1516,41 @@
     "errors": [
       {
         "content": "\tredirect(\"/femp/do/ux/pagos/afip/nuevo/pago/inicio?\"+jQuery.param(filters));",
-        "id": 7360,
+        "id": 7208,
         "solved": false,
         "line": 294
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/pagos/afip/inicio?\"+jQuery.param(filters));",
-        "id": 9388,
+        "id": 6856,
         "solved": false,
         "line": 321
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\t\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarExcelPendientes?\" + jQuery.param(filters);",
-        "id": 4250,
+        "id": 271,
         "solved": false,
         "line": 327
       },
       {
         "content": "\t\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarExcelPresentaciones?\" + jQuery.param(filters);",
-        "id": 1148,
+        "id": 4160,
         "solved": false,
         "line": 330
       },
       {
         "content": "\t\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarExcelPagos?\" + jQuery.param(filters);",
-        "id": 3210,
+        "id": 20,
         "solved": false,
         "line": 333
       },
       {
         "content": "\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarComprobantePago?\" + jQuery.param(filters);",
-        "id": 1882,
+        "id": 4495,
         "solved": false,
         "line": 376
       }
@@ -1483,17 +1563,18 @@
     "errors": [
       {
         "content": "\tredirect(\"/femp/do/ux/pagos/afip/inicio?\"+jQuery.param(filters));\t",
-        "id": 8581,
+        "id": 6013,
         "solved": false,
         "line": 10
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/pagos/afip/inicio?\"+jQuery.param(filters));",
-        "id": 5369,
+        "id": 8224,
         "solved": false,
         "line": 66
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos\\afip"
@@ -1504,17 +1585,18 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/pagos/debito/directo/inicio?\"+jQuery.param(filters));",
-        "id": 7567,
+        "id": 9133,
         "solved": false,
         "line": 22
       },
       {
         "content": "\t\tredirect(\"/femp/do/ux/pagos/debito/directo/solicitud?\"+jQuery.param(filters));",
-        "id": 5348,
+        "id": 5986,
         "solved": false,
         "line": 27
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos\\debito"
@@ -1525,11 +1607,12 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/pagos/debito/directo/solicitud?\"+jQuery.param(filters));",
-        "id": 9112,
+        "id": 5642,
         "solved": false,
         "line": 33
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos\\debito"
@@ -1540,23 +1623,24 @@
     "errors": [
       {
         "content": "\t\tredireccionar(\"/femp/do/ux/pagos/transferencias/mep\",filters);",
-        "id": 7986,
+        "id": 5796,
         "solved": false,
         "line": 243
       },
       {
         "content": "\t\t\t$(\"#form\").attr(\"action\", \"/femp/do/ux/pagos/transferencias/mep/agenda/alta/\".concat(id));",
-        "id": 8503,
+        "id": 8662,
         "solved": false,
         "line": 249
       },
       {
         "content": "\t    \tredireccionar(\"/femp/do/ux/pagos/transferencias/mep\",filters);",
-        "id": 9025,
+        "id": 9380,
         "solved": false,
         "line": 275
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos\\transferencias"
@@ -1567,11 +1651,12 @@
     "errors": [
       {
         "content": "\tif (urlpedido.startsWith(\"/femp/\")) {",
-        "id": 7228,
+        "id": 5680,
         "solved": false,
         "line": 201
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos\\transferencias"
@@ -1582,11 +1667,12 @@
     "errors": [
       {
         "content": "\t\t\t\t\t\t+ \"/femp/do/ux/tarjetas/pendienteDeFirma/firmar?\"",
-        "id": 5839,
+        "id": 5406,
         "solved": false,
         "line": 14
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "tarjetas"
@@ -1597,11 +1683,12 @@
     "errors": [
       {
         "content": "\t\t\t\t\t+ \"/femp/do/ux/tarjetas/pendienteDeFirma/firmar?\"",
-        "id": 8452,
+        "id": 8978,
         "solved": false,
         "line": 16
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "tarjetas"
@@ -1612,41 +1699,42 @@
     "errors": [
       {
         "content": "\tredirect(\"/femp/do/ux/tarjetas/inicio?\"+jQuery.param(filters));",
-        "id": 6820,
+        "id": 7976,
         "solved": false,
         "line": 75
       },
       {
         "content": "\t\t\t\t\tredirect(\"/femp/do/ux/tarjetas/inicio?\"",
-        "id": 8326,
+        "id": 8062,
         "solved": false,
         "line": 131
       },
       {
         "content": "\t\t\t\t\tredirect(\"/femp/do/ux/tarjetas/inicio?\"",
-        "id": 7210,
+        "id": 8176,
         "solved": false,
         "line": 143
       },
       {
         "content": "\t\t\t\t\t\t\tguardarCuentaSeleccionada(\u0027/femp/do/ux/tarjetas/alta\u0027);",
-        "id": 8473,
+        "id": 9036,
         "solved": false,
         "line": 288
       },
       {
         "content": "\tguardarCuentaSeleccionada(\"/femp/do/ux/tarjetas/baja?\" + jQuery.param(filtrosBorrado));",
-        "id": 8763,
+        "id": 6993,
         "solved": false,
         "line": 505
       },
       {
         "content": "\t\t\tguardarCuentaSeleccionada(\"/femp/do/ux/tarjetas/modificar\");",
-        "id": 6487,
+        "id": 8190,
         "solved": false,
         "line": 523
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "tarjetas"
@@ -1657,11 +1745,12 @@
     "errors": [
       {
         "content": "\t\tredirect(\"/femp/do/ux/template/basic/inicio?\"+jQuery.param(filters));",
-        "id": 7345,
+        "id": 6407,
         "solved": false,
         "line": 37
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "templates"
@@ -1672,47 +1761,48 @@
     "errors": [
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_01.jpg\u0027, \u00271\u0027);",
-        "id": 5308,
+        "id": 9105,
         "solved": false,
         "line": 23
       },
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_01.jpg\u0027, \u00271\u0027);",
-        "id": 8312,
+        "id": 9720,
         "solved": false,
         "line": 32
       },
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_02.jpg\u0027, \u00272\u0027);\t\t",
-        "id": 7837,
+        "id": 9253,
         "solved": false,
         "line": 33
       },
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_03.jpg\u0027, \u00273\u0027);",
-        "id": 5412,
+        "id": 5976,
         "solved": false,
         "line": 34
       },
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_1.png\u0027, \u00271\u0027);",
-        "id": 9291,
+        "id": 6165,
         "solved": false,
         "line": 43
       },
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_2.png\u0027, \u00272\u0027);",
-        "id": 8292,
+        "id": 9997,
         "solved": false,
         "line": 44
       },
       {
         "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_3.png\u0027, \u00273\u0027);",
-        "id": 6660,
+        "id": 9350,
         "solved": false,
         "line": 45
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "templates"
@@ -1723,11 +1813,12 @@
     "errors": [
       {
         "content": "\t\t\turl: \u0027/femp/do/ux/token/baja/guardar?\u0027+jQuery.param(filters),",
-        "id": 9097,
+        "id": 7446,
         "solved": false,
         "line": 118
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "token"
@@ -1738,11 +1829,12 @@
     "errors": [
       {
         "content": "\t\turl: \u0027/femp/do/ux/token/gestion/eliminar?\u0027 + $.param(filtrosBorrado),",
-        "id": 7567,
+        "id": 6642,
         "solved": false,
         "line": 75
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "token"
@@ -1753,40 +1845,41 @@
     "errors": [
       {
         "content": "\t    url: \u0027/femp/do/ux/utilidades/documentacion/envio/legal/actualizarCantidadDeEmpleados\u0027,",
-        "id": 6603,
+        "id": 5071,
         "solved": false,
         "line": 142
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "    var aux_url = \u0027/femp/do/ux/utilidades/documentacion/envio/legal/eliminar\u0027;",
-        "id": 3401,
+        "id": 4506,
         "solved": false,
         "line": 32
       },
       {
         "content": "    var action = \"/femp/do/ux/utilidades/documentacion/envio/legal/confirmar\";",
-        "id": 1810,
+        "id": 2878,
         "solved": false,
         "line": 43
       },
       {
         "content": "      var aux_url = \u0027/femp/do/ux/utilidades/documentacion/envio/legal/agregar\u0027;",
-        "id": 1515,
+        "id": 3733,
         "solved": false,
         "line": 117
       },
       {
         "content": "            var aux_url = \u0027/femp/do/ux/utilidades/documentacion/envio/legal/agregar\u0027;",
-        "id": 2497,
+        "id": 1908,
         "solved": false,
         "line": 322
       },
       {
         "content": "\t\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=7049\u0026pb_url=/do/ux/financiacion/prestamos/fogar/inicio?nuevoContexto=true\u0026nombreCircuito=PRESTAMOS_FOGAR\u0026\";",
-        "id": 702,
+        "id": 745,
         "solved": false,
         "line": 363
       }
@@ -1799,11 +1892,12 @@
     "errors": [
       {
         "content": "\tdocument.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=agregarExcepcionDJAI\u0026primerAcceso=false\";",
-        "id": 6685,
+        "id": 7009,
         "solved": false,
         "line": 21
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comex"
@@ -1814,17 +1908,34 @@
     "errors": [
       {
         "content": "\t\tdocument.getElementById(\"minusPlus\"+id).src=\"/femp/images/treeExpand_minus.gif\";",
-        "id": 8080,
+        "id": 6743,
         "solved": false,
         "line": 14
       },
       {
         "content": "\t\tdocument.getElementById(\"minusPlus\"+id).src=\"/femp/images/treeExpand_plus.gif\";",
-        "id": 6988,
+        "id": 5706,
         "solved": false,
         "line": 20
       }
     ],
+    "show": true,
+    "solved": false,
+    "variables": [],
+    "circuito": "comex"
+  },
+  {
+    "name": "financiamientoExportacionVigentes-listado",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\comex\\js\\financiamientoExportacionVigentes-listado.js",
+    "errors": [
+      {
+        "content": "            doSubmitFila(\u0027/femp/mod/comex/financiamientoExportacionVigentesListado.do?opc=detalle\u0027);",
+        "id": 5771,
+        "solved": false,
+        "line": 59
+      }
+    ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comex"
@@ -1835,11 +1946,12 @@
     "errors": [
       {
         "content": "\t\t\t\t\t+ \"/femp/mod/comex/simulacionVencimiento-jspServices_Trans_GWG5.jsp?accion=\"",
-        "id": 7063,
+        "id": 9889,
         "solved": false,
         "line": 325
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "comex"
@@ -1850,28 +1962,29 @@
     "errors": [
       {
         "content": "    document.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=detalleFactDespachos\";",
-        "id": 9674,
+        "id": 7446,
         "solved": false,
         "line": 83
       },
       {
         "content": "\tdocument.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=aplicarDespacho\u0026primerAcceso=false\";",
-        "id": 9423,
+        "id": 7996,
         "solved": false,
         "line": 90
       },
       {
         "content": "\tdocument.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=eliminarDespacho\u0026primerAcceso=false\";",
-        "id": 9479,
+        "id": 6774,
         "solved": false,
         "line": 103
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\tdocument.formBotonera.action = \u0027/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=aceptarDespachos\u0027;",
-        "id": 4677,
+        "id": 86,
         "solved": false,
         "line": 113
       }
@@ -1884,22 +1997,23 @@
     "errors": [
       {
         "content": "\t\turl : \"/femp/mod/cuentas/eResumen.do?dispatch=cargarResumen\u0026ts=\"+ (new Date().getTime()) + \"\u0026indiceFecha=\"+ indice + \"\u0026refcli=\"+refcli + \"\u0026cta=\"+refcta + \"\u0026origen=\"+origen + \"\u0026sus=\"+sus + \"\u0026ctra=\"+ctra + \"\u0026nCta=\"+nCta,",
-        "id": 8551,
+        "id": 7151,
         "solved": false,
         "line": 13
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\t\t\t\t\t\twindow.location.href = \"/femp/mod/cuentas/eResumen.do?dispatch=mostrarExtracto\";",
-        "id": 1711,
+        "id": 3283,
         "solved": false,
         "line": 21
       },
       {
         "content": "\t\t\t\t\t\twindow.location.href = \"/femp/logout.jsp\";",
-        "id": 4257,
+        "id": 4098,
         "solved": false,
         "line": 27
       }
@@ -1912,11 +2026,12 @@
     "errors": [
       {
         "content": " \t\t\t\turl : \"/femp/mod/cuentas/eResumen.do?dispatch=guardarSolapas\u0026ts=\"+ (new Date().getTime()) + \"\u0026sc=\"+ sc + \"\u0026st=\"+ st,",
-        "id": 7918,
+        "id": 6227,
         "solved": false,
         "line": 49
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "cuentas"
@@ -1927,16 +2042,17 @@
     "errors": [
       {
         "content": "\tdocument.forms.estadisticasForm.action=\u0027/femp/mod/estadisticas/estadisticasGrafico.do?target=10\u0027;",
-        "id": 6506,
+        "id": 8844,
         "solved": false,
         "line": 10
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\tdocument.forms.estadisticasForm.action = \u0027/femp/mod/estadisticas/estadisticasListado.do?target=10\u0027;",
-        "id": 2909,
+        "id": 185,
         "solved": false,
         "line": 4
       }
@@ -1949,16 +2065,17 @@
     "errors": [
       {
         "content": "\tdocument.forms.estadisticasForm.action=\u0027/femp/mod/estadisticas/estadisticasHistoricoListado.do?target=10\u0027;",
-        "id": 7760,
+        "id": 6026,
         "solved": false,
         "line": 23
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\tdocument.forms.estadisticasForm.action = \u0027/femp/mod/estadisticas/estadisticasGrafico.do?target=10\u0027;",
-        "id": 2863,
+        "id": 2876,
         "solved": false,
         "line": 43
       }
@@ -1971,11 +2088,12 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/mod/inversiones/compraAccionesBonosNew.do?accion=consultarPermisos\u0026cuenta=\"+cuentaCustodia,",
-        "id": 5067,
+        "id": 9569,
         "solved": false,
         "line": 55
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones"
@@ -1986,17 +2104,18 @@
     "errors": [
       {
         "content": "  \t\twindow.location.replace(\u0027/femp/do/ux/common/redirect?id=perfilInversor\u0026parametros=refIdEmpresa=\u0027 + $(\"#refIdEmpresa\").val());",
-        "id": 8983,
+        "id": 8458,
         "solved": false,
         "line": 56
       },
       {
         "content": "        url: \u0027/femp/mod/inversiones/suscripcionRescate.do?accion=simularSuscripcion\u0027,",
-        "id": 9009,
+        "id": 8108,
         "solved": false,
         "line": 157
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones"
@@ -2007,11 +2126,12 @@
     "errors": [
       {
         "content": "\t\t\turl: \"/femp/mod/inversiones/plazoFijoConstitucion.do?metodo=actualizarTasaInteres\u0026claveAsunto=\"+claveAsunto,\t",
-        "id": 8190,
+        "id": 9128,
         "solved": false,
         "line": 37
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones"
@@ -2022,11 +2142,12 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/mod/inversiones/ventaAccionesBonosNew.do?accion=consultarPermisos\u0026cuenta=\"+cuentaCustodia,",
-        "id": 7149,
+        "id": 7705,
         "solved": false,
         "line": 55
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "inversiones"
@@ -2037,11 +2158,12 @@
     "errors": [
       {
         "content": "\t\t\t\t\t\tgoToUrl(\u0027/femp/mod/pagos/abmRetencionesDeduccionesGrilla.do?target=listado\u0027);",
-        "id": 9006,
+        "id": 9826,
         "solved": false,
         "line": 528
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2052,58 +2174,59 @@
     "errors": [
       {
         "content": "\t\t\turl:\t\"/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes\",",
-        "id": 6775,
+        "id": 9227,
         "solved": false,
         "line": 9
       },
       {
         "content": "\t\t\t\t\t\t\t\t, href: \"/femp/mod/pagos/confeccionarPago.do?target=abmRetencion\"",
-        "id": 8173,
+        "id": 7299,
         "solved": false,
         "line": 19
       },
       {
         "content": "\t\t\turl:\t\"/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes\u0026obtenerDed=true\",",
-        "id": 9513,
+        "id": 9704,
         "solved": false,
         "line": 47
       },
       {
         "content": "\t\t\t\t\t\t\t, href: \"/femp/mod/pagos/confeccionarPago.do?target=abmDeduccion\u0026id=\" + id + \"\u0026editable=\" + document.getElementById(\u0027paramEditable\u0027).value",
-        "id": 9874,
+        "id": 9881,
         "solved": false,
         "line": 57
       },
       {
         "content": "\t\turl:\t\"/femp/mod/pagos/confeccionarPago.do?target=eliminaComprobante\u0026idComprobante=\" + idComprobante,",
-        "id": 8755,
+        "id": 7208,
         "solved": false,
         "line": 119
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\t\t\t\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=abmRetencion\";",
-        "id": 585,
+        "id": 2908,
         "solved": false,
         "line": 13
       },
       {
         "content": "\t\t\t\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=abmDeduccion\u0026id=\" + id;",
-        "id": 3637,
+        "id": 1048,
         "solved": false,
         "line": 51
       },
       {
         "content": "\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=volverConfeccionar\u0026editable=\" + document.getElementById(\u0027paramEditable\u0027).value;",
-        "id": 4108,
+        "id": 2332,
         "solved": false,
         "line": 132
       },
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=confirma\";",
-        "id": 553,
+        "id": 1526,
         "solved": false,
         "line": 181
       }
@@ -2116,11 +2239,12 @@
     "errors": [
       {
         "content": "\t\tgoToUrl(\"/femp/mod/pagos/confeccionarPago.do?target=volverConfeccionar\" + (titulo.indexOf(\u0027Pagos Pendientes\u0027) \u003e 0 ? \"\u0026editable=true\" : \"\"));",
-        "id": 9042,
+        "id": 8832,
         "solved": false,
         "line": 72
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2131,23 +2255,24 @@
     "errors": [
       {
         "content": "\t\t\turl: \"/femp/mod/pagos/jspService_ConsultaNominas.jsp\",",
-        "id": 5202,
+        "id": 9897,
         "solved": false,
         "line": 112
       },
       {
         "content": "\t\t\t\t\t\t\"\u003cinput class=\\\"aceptar\\\" type=\\\"button\\\" onclick=\\\"javascript:goToUrl(\u0027/femp/mod/pagos/consultaNominas.do?target=0\u0027)\\\"value=\\\"\" + jsMessagesPagos.volver + \"\\\" name=\\\"boton\\\"\u003e\" +",
-        "id": 8184,
+        "id": 8405,
         "solved": false,
         "line": 186
       },
       {
         "content": "\twinOpenBase(\"/femp/mod/pagos/nominasConsultaNominas-listado-excel.jsp?\" +",
-        "id": 8735,
+        "id": 8144,
         "solved": false,
         "line": 211
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2158,23 +2283,24 @@
     "errors": [
       {
         "content": "\t\t\turl: \"/femp/mod/pagos/jspService_ConsultaPagos.jsp\",",
-        "id": 5428,
+        "id": 7584,
         "solved": false,
         "line": 55
       },
       {
         "content": "\t\t\t\t\t\t\"\u003cinput class=\\\"aceptar\\\" type=\\\"button\\\" onclick=\\\"javascript:goToUrl(\u0027/femp/mod/pagos/consultaPagos.do?target=0\u0027)\\\" \" +",
-        "id": 7413,
+        "id": 6991,
         "solved": false,
         "line": 126
       },
       {
         "content": "\twinOpenBase(\"/femp/mod/pagos/nominasConsultaPagos-listado-excel.jsp?refCta=\" + ",
-        "id": 6609,
+        "id": 6418,
         "solved": false,
         "line": 151
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2185,11 +2311,12 @@
     "errors": [
       {
         "content": "\t\t\t\"\u003cimg src=\\\"/femp/images/trash.gif\\\" border=\\\"0\\\"\u003e\" +",
-        "id": 9521,
+        "id": 6946,
         "solved": false,
         "line": 65
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2200,11 +2327,12 @@
     "errors": [
       {
         "content": "\t\t\t\"\u003cimg src=\\\"/femp/images/trash.gif\\\" border=\\\"0\\\"\u003e\" +",
-        "id": 5856,
+        "id": 5938,
         "solved": false,
         "line": 90
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2215,28 +2343,29 @@
     "errors": [
       {
         "content": "\t\turl:\t\"/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts=\" +",
-        "id": 5049,
+        "id": 5452,
         "solved": false,
         "line": 29
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/consultaRecaudaciones.do?target=40\u0026modo=confeccionarBoleta\";",
-        "id": 792,
+        "id": 996,
         "solved": false,
         "line": 71
       },
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/consultaRecaudaciones.do?target=40\u0026modo=pagoDebitoBBVAFrances\";",
-        "id": 782,
+        "id": 373,
         "solved": false,
         "line": 83
       },
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/consultaRecaudaciones.do?target=40\u0026modo=pagoDebitoInterbanking\";",
-        "id": 2740,
+        "id": 3280,
         "solved": false,
         "line": 95
       }
@@ -2249,23 +2378,24 @@
     "errors": [
       {
         "content": "\t\t\turl : \"/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts=\"",
-        "id": 6573,
+        "id": 8178,
         "solved": false,
         "line": 163
       },
       {
         "content": "\t\t\turl : \"/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts=\"",
-        "id": 9015,
+        "id": 9107,
         "solved": false,
         "line": 198
       },
       {
         "content": "\t\t\turl : \"/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts=\"",
-        "id": 5223,
+        "id": 5568,
         "solved": false,
         "line": 232
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2276,11 +2406,12 @@
     "errors": [
       {
         "content": "          url: \"/femp/mod/pagos/solicitudTarjetasDepositantes.do?accion=clickCheck\" + \"\u0026numeroDepositante=\" + numeroDepositante,",
-        "id": 5342,
+        "id": 8987,
         "solved": false,
         "line": 11
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "pagos"
@@ -2291,28 +2422,29 @@
     "errors": [
       {
         "content": "\t\tgoToUrl(\u0027/femp/servlet/PIBEE?pb_cod_serv=8803\u0026pb_url=/mod/proveedores/abmDepositantes.do?target=10\u0027);",
-        "id": 8672,
+        "id": 6286,
         "solved": false,
         "line": 154
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [
       {
         "content": "\tdocument.formDetalle.urlReturn.value = \u0027/femp/mod/proveedores/abmDepositantes.do?target=20\u0027;",
-        "id": 3049,
+        "id": 4976,
         "solved": false,
         "line": 84
       },
       {
         "content": "\t\tdocument.formDetalle.urlReturn.value = \u0027/femp/mod/proveedores/abmDepositantes.do?target=20\u0027;",
-        "id": 2193,
+        "id": 2801,
         "solved": false,
         "line": 188
       },
       {
         "content": "\t\tdocument.formDetalle.urlReturn.value = \u0027/femp/mod/proveedores/abmDepositantes.do?target=20\u0027;",
-        "id": 4963,
+        "id": 832,
         "solved": false,
         "line": 206
       }
@@ -2325,17 +2457,18 @@
     "errors": [
       {
         "content": "\t\tdocument.getElementById(\"formPAC\").setAttribute(\"action\", \"/femp/mod/proveedores/pagoACuentaConDebito.do?target=20\");",
-        "id": 9839,
+        "id": 5513,
         "solved": false,
         "line": 206
       },
       {
         "content": "\t\tdocument.getElementById(\"formPAC\").setAttribute(\"action\", \"/femp/mod/proveedores/pagoACuentaConDebito.do?target=40\");",
-        "id": 7137,
+        "id": 8083,
         "solved": false,
         "line": 220
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "proveedores"
@@ -2346,23 +2479,24 @@
     "errors": [
       {
         "content": "\t\t\t     \t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs\u0027,",
-        "id": 9926,
+        "id": 8068,
         "solved": false,
         "line": 46
       },
       {
         "content": "     \t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs\u0027,",
-        "id": 8323,
+        "id": 8099,
         "solved": false,
         "line": 172
       },
       {
         "content": "     \t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu_success + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003eBBVA\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 8558,
+        "id": 6380,
         "solved": false,
         "line": 184
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "proveedores"
@@ -2373,35 +2507,36 @@
     "errors": [
       {
         "content": "\t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU\u0027,",
-        "id": 9412,
+        "id": 8567,
         "solved": false,
         "line": 844
       },
       {
         "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu_success + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003eBBVA\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 6574,
+        "id": 6357,
         "solved": false,
         "line": 857
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU\u0027,",
-        "id": 7426,
+        "id": 6995,
         "solved": false,
         "line": 898
       },
       {
         "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doBotonEliminar(\"row1\");\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 6729,
+        "id": 7959,
         "solved": false,
         "line": 913
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU\u0027,",
-        "id": 7842,
+        "id": 9060,
         "solved": false,
         "line": 961
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "proveedores"
@@ -2412,35 +2547,36 @@
     "errors": [
       {
         "content": "\t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU\u0027,",
-        "id": 6416,
+        "id": 7263,
         "solved": false,
         "line": 914
       },
       {
         "content": "\t\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doBotonEliminar(row1);\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;\t\t\t\t\t\t",
-        "id": 9459,
+        "id": 5043,
         "solved": false,
         "line": 926
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU\u0027,",
-        "id": 9688,
+        "id": 9452,
         "solved": false,
         "line": 985
       },
       {
         "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row\u0027 + nextRow +\u0027\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doDelete(\\\u0027row\u0027 + nextRow + \u0027\\\u0027,\\\u0027\u0027+ secuencia +\u0027\\\u0027);\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 8844,
+        "id": 8969,
         "solved": false,
         "line": 997
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU\u0027,",
-        "id": 9523,
+        "id": 7454,
         "solved": false,
         "line": 1044
       }
     ],
+    "show": true,
     "solved": false,
     "variables": [],
     "circuito": "proveedores"

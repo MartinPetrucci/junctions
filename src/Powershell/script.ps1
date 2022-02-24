@@ -88,6 +88,7 @@ function test-js([string]$path) {
                     variables = $urlVariables
                     solved = $false
                     circuito = $circuito
+                    show = $true
                 }
                 $lineId++
                 $finaljson = ConvertTo-Json $finalObject
