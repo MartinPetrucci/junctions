@@ -7,9 +7,9 @@ const JunctionCard = ({ dataCard }) => {
       backgroundColor: "#1973B8",
       color: "white",
       marginTop: "5px",
-      marginBottom: "5px",
-
-      padding: "5px",
+      paddingLeft: "10px",
+      paddingRight: "10px",
+      paddingBottom: "10px"
     },
     title: {
       fontSize: "29px",
@@ -19,8 +19,9 @@ const JunctionCard = ({ dataCard }) => {
     circuito: {
       backgroundColor: "white",
       color: "black",
-      width: "55%",
+      width: "100%",
       borderRadius: "4px",
+      marginTop: "12px"
     },
     checkbox: {
       display: "inline",
@@ -61,11 +62,6 @@ const JunctionCard = ({ dataCard }) => {
   return (
     <Container style={styles.card}>
       <Row>
-        <Col xs="4">
-          <div style={styles.circuito}>
-            <p style={{ textAlign: "center" }}>{dataCard.circuito}</p>
-          </div>
-        </Col>
         <Col xs="8">
           <p style={styles.title}> {dataCard.name}.js</p>
           <input
@@ -74,6 +70,11 @@ const JunctionCard = ({ dataCard }) => {
             value={dataCard.name}
             onChange={handleChange}
           />
+        </Col>
+        <Col xs="4">
+          <div style={styles.circuito}>
+            <p style={{ textAlign: "center", fontWeight: "600" }}>{dataCard.circuito}</p>
+          </div>
         </Col>
       </Row>
       {renderList(dataCard.errors, "Lines with missing junctions")}

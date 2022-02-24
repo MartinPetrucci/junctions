@@ -58,12 +58,17 @@ const Junctions = () => {
     setJunctions(copy);
   };
 
-  const orderBy = (crieria) => {
+  const orderBy = (criteria) => {
+    console.log(criterias[criteria])
+    const copy = [...listaFija];
+    const orderedList = copy.sort((a,b)=> criterias[criteria](a,b))
+    console.table(orderedList)
+    setJunctions(orderedList)
     //const orderedList = junctions.sort((a,b) => criterias[crieria](a,b))
-    const orderedList = junctions.sort((a, b) => criterias["circuito"](a, b));
+    //const orderedList = junctions.sort((a, b) => criterias["circuito"](a, b));
 
-    console.table(orderedList);
-    setJunctions(orderedList);
+    // console.table(orderedList);
+    // setJunctions(orderedList);
     // console.log("AA");
     // console.log(document.querySelector("#order"));
   };
@@ -81,7 +86,7 @@ const Junctions = () => {
               placeholder="Order by"
               onChange={(e) => orderBy(e.target.value)}
             >
-              <option value="circuito">Circuito</option>
+              <option default value="circuito">Circuito</option>
               <option value="mostErrors">Most errors</option>
             </Form.Control>
           </InputGroup>
