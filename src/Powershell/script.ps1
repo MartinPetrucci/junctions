@@ -10,14 +10,21 @@ Add-Content $JSONFile '['
 #Regular Expressions
 #$urlVariableDeclarationRegEx = '\w*\s\*=s*"/femp'
 #$urlVariableDeclarationRegEx= "[(var)(let)(const)]+\s[A-z]+\s{0,1}=\s{0,1}.\/femp"
-$xd = "\w*\s\=\s{0,1}[`'`"]/femp"
+
+#Regular Expressions
+$variableDeclaration = "\w*\s*\=\s*[`'`"]/femp"
 $fempRegEx = '/femp'
+$functionCall = "(redirect|ejecutaUrlPdf|htmlFileLoad|redireccionar|winOpenBase).+[`'`"]/femp"
+$htmlElement = "<.*[`"`']/femp.*>"
+$jQuery = "\`$.+[`"`']/femp"
+
+
 #$containsJunction = 'junction\s*(\+)?(\s*|\.concat).*' + $name + '.*'
 $lineId = 1
 function test-js([string]$path) {
     Set-Location $path 
     if (-Not (Test-Path "js")) {
-        Get-ChildItem -Exclude *.jsp | ForEach-Object {
+        Get-ChildItem -Exclude *.jsp, *.dm | ForEach-Object {
             Set-Location $_
             test-js
             Set-Location ..
@@ -25,7 +32,7 @@ function test-js([string]$path) {
     }
     else {
         Set-Location js
-        Get-ChildItem | ForEach-Object {
+        Get-ChildItem -Exclude *.dm | ForEach-Object {
             #iteramos cada archivo
             $file = $_
             $lineNumber = 1
@@ -42,7 +49,7 @@ function test-js([string]$path) {
                     if (-Not ($lineContent -Match "junction")) {
                         #valida que tenga la junction
                         #no tiene la junction, puede que sea una declaracion de variable
-                        if ($lineContent -Match $xd) {
+                        if ($lineContent -Match $variableDeclaration) {
                             #$variableName = ($Matches[0] -split "=")[0].Trim() #guardo el nombre de la variable
 
                             $varObj = @{
@@ -54,7 +61,8 @@ function test-js([string]$path) {
                             $urlVariables += $varObj #lo agrego a la lista de variables
                         }
                         else {
-                            #no es una declaracion de variable y se falta la junction
+                            if ((-Not ($lineContent -Match $functionCall)) -and (-Not($lineContent -match $htmlElement)) -and (-Not($lineContent -match $jQuery))) {
+                            #no es una declaracion de variable y no es un llamado a redirect o ejecutaUrlPdf
                             $containsJunction = $false
                             $errObj = @{
                                 id = Get-Random -Minimum 5001 -Maximum 10000
@@ -63,6 +71,7 @@ function test-js([string]$path) {
                                 solved = $false
                             }
                             $junctionErrors += $errObj
+                            }
                         }
                     }
                 }
@@ -102,8 +111,8 @@ function test-js([string]$path) {
 
 
 
-$parteNueva = "C:\Users\martin.petrucci\Downloads\femp-wp\femp\femp.war\view\ux"
-$parteVieja = "C:\Users\martin.petrucci\Downloads\femp-wp\femp\femp.war\mod"
+$parteNueva = "C:\Users\martin.petrucci\Downloads\femp.war\view\ux"
+$parteVieja = "C:\Users\martin.petrucci\Downloads\femp.war\mod"
 test-js($parteNueva)
 test-js($parteVieja)
 Add-Content $JSONFile ']'

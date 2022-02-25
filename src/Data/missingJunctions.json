@@ -5,7 +5,7 @@
     "errors": [
       {
         "content": "\t\turl: \u0027/femp/do/ux/administracion/documentos/firma/rechazar?\u0027 + $.param(filtrosRechazo),",
-        "id": 9788,
+        "id": 8858,
         "solved": false,
         "line": 42
       }
@@ -21,7 +21,7 @@
     "errors": [
       {
         "content": "\t\turl: \u0027/femp/do/ux/administracion/documentos/firma/cancelarFirma?\u0027 + $.param(filters),",
-        "id": 8953,
+        "id": 8875,
         "solved": false,
         "line": 20
       }
@@ -37,13 +37,13 @@
     "errors": [
       {
         "content": "\t\t\t\turl: \"/femp/do/ux/avisos/mensajes/saveSubscripcion\",\t",
-        "id": 7488,
+        "id": 6025,
         "solved": false,
         "line": 19
       },
       {
         "content": "\t\t\turl: \"/femp/do/ux/avisos/mensajes/saveAgenda\",\t",
-        "id": 5679,
+        "id": 9028,
         "solved": false,
         "line": 53
       }
@@ -54,224 +54,14 @@
     "circuito": "avisos\\mensajes"
   },
   {
-    "name": "adelantoCupones-adhesion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-adhesion.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 6278,
-        "solved": false,
-        "line": 10
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));",
-        "id": 6467,
-        "solved": false,
-        "line": 19
-      },
-      {
-        "content": "    \t\t\t\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 8529,
-        "solved": false,
-        "line": 41
-      },
-      {
-        "content": "\tredireccionar(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/terminos/ver\");",
-        "id": 5546,
-        "solved": false,
-        "line": 64
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comercios\\adelanto"
-  },
-  {
-    "name": "adelantoCupones-informacionHoraria",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-informacionHoraria.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));",
-        "id": 5807,
-        "solved": false,
-        "line": 7
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comercios\\adelanto"
-  },
-  {
-    "name": "adelantoCupones-liquidaciones",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-liquidaciones.js",
-    "errors": [
-      {
-        "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/realizados?\"+jQuery.param(filters));\t",
-        "id": 7550,
-        "solved": false,
-        "line": 171
-      },
-      {
-        "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));\t",
-        "id": 6015,
-        "solved": false,
-        "line": 173
-      },
-      {
-        "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelLiquidaciones?\"+jQuery.param(filters));",
-        "id": 6763,
-        "solved": false,
-        "line": 187
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comercios\\adelanto"
-  },
-  {
     "name": "adelantoCupones-nuevo",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-nuevo.js",
     "errors": [
       {
         "content": "\t\t\t.concat(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/list/propuestas\");",
-        "id": 8034,
+        "id": 9047,
         "solved": false,
         "line": 18
-      },
-      {
-        "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+ jQuery.param(filters));",
-        "id": 9272,
-        "solved": false,
-        "line": 226
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+ jQuery.param(filters));",
-        "id": 9722,
-        "solved": false,
-        "line": 275
-      },
-      {
-        "content": "\t\t\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/listSimulaciones?\"+ jQuery.param(filters));},",
-        "id": 6281,
-        "solved": false,
-        "line": 358
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comercios\\adelanto"
-  },
-  {
-    "name": "adelantoCupones-pendientes",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-pendientes.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));\t",
-        "id": 7104,
-        "solved": false,
-        "line": 168
-      },
-      {
-        "content": "    \t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 9900,
-        "solved": false,
-        "line": 177
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/realizados?\"+jQuery.param(filters));",
-        "id": 8118,
-        "solved": false,
-        "line": 183
-      },
-      {
-        "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelPendientes?\"+jQuery.param(filters));",
-        "id": 9469,
-        "solved": false,
-        "line": 188
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/liquidaciones?\"+jQuery.param(filters));",
-        "id": 8643,
-        "solved": false,
-        "line": 239
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comercios\\adelanto"
-  },
-  {
-    "name": "adelantoCupones-realizados",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-realizados.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/realizados?\"+jQuery.param(filters));",
-        "id": 6036,
-        "solved": false,
-        "line": 174
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\"+jQuery.param(filters));",
-        "id": 6090,
-        "solved": false,
-        "line": 180
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\"+jQuery.param(filters));",
-        "id": 6039,
-        "solved": false,
-        "line": 193
-      },
-      {
-        "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelRealizados?\"+jQuery.param(filters));",
-        "id": 6246,
-        "solved": false,
-        "line": 197
-      },
-      {
-        "content": "\t\tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarExcelConciliacion?\"+jQuery.param(filtrosConciliacion));",
-        "id": 9372,
-        "solved": false,
-        "line": 203
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/liquidaciones?\"+jQuery.param(filters));",
-        "id": 5213,
-        "solved": false,
-        "line": 256
-      },
-      {
-        "content": "    \tejecutaUrlPdf(\"/femp/do/ux/comercios/adelanto/cupones/descargarPdfRealizados?\"+jQuery.param(filters));",
-        "id": 9008,
-        "solved": false,
-        "line": 272
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comercios\\adelanto"
-  },
-  {
-    "name": "adelantoCupones-simulacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comercios\\adelanto\\cupones\\js\\adelantoCupones-simulacion.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/nuevo/form?\" + jQuery.param(filters));",
-        "id": 5441,
-        "solved": false,
-        "line": 58
-      },
-      {
-        "content": "\t\t\tredirect(\"/femp/do/ux/comercios/adelanto/cupones/inicio?\" + jQuery.param(filters));",
-        "id": 6928,
-        "solved": false,
-        "line": 74
       }
     ],
     "show": true,
@@ -285,7 +75,7 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/do/ux/comercios/tramites/altaComercio/confirmacion\",",
-        "id": 5348,
+        "id": 6009,
         "solved": false,
         "line": 7
       }
@@ -301,13 +91,13 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/do/ux/comercios/tramites/altaComercio/agregarDocumento?\" + jQuery.param(filters),",
-        "id": 8872,
+        "id": 7991,
         "solved": false,
         "line": 25
       },
       {
         "content": "\t\turl: \"/femp/do/ux/comercios/tramites/altaComercio/eliminarDocumento?\" + jQuery.param(filters),",
-        "id": 6180,
+        "id": 6581,
         "solved": false,
         "line": 46
       }
@@ -318,34 +108,18 @@
     "circuito": "comercios\\tramites"
   },
   {
-    "name": "Calendarizacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\calendarizacion\\js\\Calendarizacion.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 8454,
-        "solved": false,
-        "line": 310
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comex\\calendarizacion"
-  },
-  {
     "name": "cierreCambio-cotizacion",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\cierre\\cambio\\js\\cierreCambio-cotizacion.js",
     "errors": [
       {
         "content": "\t\turl : \u0027/femp/do/ux/comex/cierre/cambio/aceptarTipoCambio?\u0027 + $.param(filters),",
-        "id": 8859,
+        "id": 9746,
         "solved": false,
         "line": 10
       },
       {
         "content": "\t\t\t\t\t+ \"/femp/do/ux/comex/cierre/cambio/cierreCambio-firmar?\"",
-        "id": 9915,
+        "id": 5505,
         "solved": false,
         "line": 15
       }
@@ -361,43 +135,43 @@
     "errors": [
       {
         "content": "\t\turl : \u0027/femp/do/ux/comex/cierre/cambio/caducoOperacion?\u0027 + jQuery.param(filters),",
-        "id": 9304,
+        "id": 7247,
         "solved": false,
         "line": 192
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/eliminarPendiente?\u0027 + jQuery.param(filters),",
-        "id": 7532,
+        "id": 6211,
         "solved": false,
         "line": 218
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?\u0027 + jQuery.param(filters),",
-        "id": 8334,
+        "id": 5458,
         "solved": false,
         "line": 460
       },
       {
         "content": "\t\t\t\t+ \"/femp/do/ux/comex/cierre/cambio/resumenCotizacion?\"",
-        "id": 6150,
+        "id": 6953,
         "solved": false,
         "line": 466
       },
       {
         "content": "\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/obtenerTiposOperaciones?tipoOperacion=\u0027.concat(tipoOperacion) ,",
-        "id": 8913,
+        "id": 9356,
         "solved": false,
         "line": 478
       },
       {
         "content": "\t\t\turl: \u0027/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?\u0027  + jQuery.param(filters),",
-        "id": 7751,
+        "id": 8576,
         "solved": false,
         "line": 841
       },
       {
         "content": "\t\t\t\t\t+ \"/femp/do/ux/comex/cierre/cambio/resumenCotizacion?\"",
-        "id": 5827,
+        "id": 9188,
         "solved": false,
         "line": 847
       }
@@ -407,7 +181,7 @@
     "variables": [
       {
         "content": "var URI = \u0027/femp/do/ux/comex/cierre/cambio\u0027;",
-        "id": 4327,
+        "id": 376,
         "solved": false,
         "line": 6
       }
@@ -415,68 +189,22 @@
     "circuito": "comex\\cierre"
   },
   {
-    "name": "LiquidacionCde",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\liquidaciones\\cde\\js\\LiquidacionCde.js",
+    "name": "CCOMP_CartaCompromiso",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\modulos\\js\\CCOMP_CartaCompromiso.js",
     "errors": [
       {
-        "content": "\t\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 5640,
+        "content": "            url: \"/femp/do/ux/comex/modulos/CCOMP/aceptar\",",
+        "id": 7159,
         "solved": false,
-        "line": 431
+        "line": 16
       }
     ],
     "show": true,
     "solved": false,
     "variables": [
       {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 3148,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "comex\\liquidaciones"
-  },
-  {
-    "name": "LiquidacionCoe",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\liquidaciones\\coe\\js\\LiquidacionCoe.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 5767,
-        "solved": false,
-        "line": 226
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 2338,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "comex\\liquidaciones"
-  },
-  {
-    "name": "DBDE1_DatosBasicosDE",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\modulos\\js\\DBDE1_DatosBasicosDE.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9546,
-        "solved": false,
-        "line": 1242
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var PATH_URL = \u0027/femp/do/ux/comex/modulos/DBDE1\u0027;",
-        "id": 2354,
+        "content": "var URL = \u0027/femp/do/ux/comex/modulos/CCOMP\u0027;",
+        "id": 3774,
         "solved": false,
         "line": 1
       }
@@ -484,221 +212,49 @@
     "circuito": "comex\\modulos"
   },
   {
-    "name": "DBFA1_DatosBasicosFA",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\modulos\\js\\DBFA1_DatosBasicosFA.js",
+    "name": "consultaCertificaciones",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\seguimientoexportacion\\certificacionsecoexpo\\js\\consultaCertificaciones.js",
     "errors": [
       {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9617,
+        "content": "\t\tlocation.assign(\"/femp/do/ux/comex/seguimientoexportacion/certificacionsecoexpo/inicio?\"+jQuery.param(filters));",
+        "id": 9256,
         "solved": false,
-        "line": 613
+        "line": 104
+      },
+      {
+        "content": "\t\t        url: \u0027/femp/do/ux/comex/seguimientoexportacion/certificacionsecoexpo/getDetalle\u0027,",
+        "id": 9754,
+        "solved": false,
+        "line": 206
       }
     ],
     "show": true,
     "solved": false,
     "variables": [
       {
-        "content": "var PATH_URL = \u0027/femp/do/ux/comex/modulos/DBFA1\u0027;",
-        "id": 2681,
+        "content": "\tvar url = \"/femp/do/ux/comex/seguimientoexportacion/certificacionsecoexpo/getOperaciones\";",
+        "id": 2642,
         "solved": false,
-        "line": 1
-      }
-    ],
-    "circuito": "comex\\modulos"
-  },
-  {
-    "name": "DBSI1_DatosBasicosSI",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\modulos\\js\\DBSI1_DatosBasicosSI.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9041,
-        "solved": false,
-        "line": 586
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var PATH_URL = \u0027/femp/do/ux/comex/modulos/DBSI1\u0027;",
-        "id": 999,
-        "solved": false,
-        "line": 1
-      }
-    ],
-    "circuito": "comex\\modulos"
-  },
-  {
-    "name": "AnticiposExportacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\seguimientoexportacion\\anticiposexportacion\\js\\AnticiposExportacion.js",
-    "errors": [
-      {
-        "content": "\t\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 7780,
-        "solved": false,
-        "line": 240
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 3781,
-        "solved": false,
-        "line": 3
+        "line": 10
       }
     ],
     "circuito": "comex\\seguimientoexportacion"
   },
   {
-    "name": "permisos_embarques",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\seguimientoexportacion\\permisos\\embarques\\js\\permisos_embarques.js",
+    "name": "altacuenta",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\altaCuentas\\js\\altacuenta.js",
     "errors": [
       {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 5490,
+        "content": "\t\t    url: \u0027/femp/do/ux/cuentas/altaCuentas/consulta?\u0027+jQuery.param(filters),",
+        "id": 8903,
         "solved": false,
-        "line": 122
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 2523,
-        "solved": false,
-        "line": 2
-      }
-    ],
-    "circuito": "comex\\seguimientoexportacion"
-  },
-  {
-    "name": "despachos_importacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\seguimientoimportacion\\despachos\\importacion\\js\\despachos_importacion.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9143,
-        "solved": false,
-        "line": 341
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 112,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "comex\\seguimientoimportacion"
-  },
-  {
-    "name": "pagos_anticipados",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\seguimientoimportacion\\pagos\\anticipados\\js\\pagos_anticipados.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9306,
-        "solved": false,
-        "line": 307
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 658,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "comex\\seguimientoimportacion"
-  },
-  {
-    "name": "emisionTransferencia",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\comex\\transferencias\\js\\emisionTransferencia.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 9360,
-        "solved": false,
-        "line": 502
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL_CIRCUITO = \u0027/femp/do/ux/comex/transferencia\u0027;",
-        "id": 1130,
-        "solved": false,
-        "line": 2
+        "line": 169
       },
       {
-        "content": "var URL_VOLVER = \u0027/femp/do/ux/comex/transferencia/inicio\u0027;",
-        "id": 2658,
+        "content": "\t\turl: \u0027/femp/do/ux/cuentas/altaCuentas/eliminar?\u0027 + $.param(filtroCancelar),",
+        "id": 8829,
         "solved": false,
-        "line": 3
-      },
-      {
-        "content": "var URL_MODULOS = \u0027/femp/do/ux/comex/modulos/iniciarModulo.htm\u0027;",
-        "id": 3426,
-        "solved": false,
-        "line": 4
-      }
-    ],
-    "circuito": "comex\\transferencias"
-  },
-  {
-    "name": "acuerdos-informacion-horaria",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\acuerdos\\js\\acuerdos-informacion-horaria.js",
-    "errors": [
-      {
-        "content": "\t\tredireccionar(\"/femp/do/ux/cuentas/acuerdos/inicio?\",filters);",
-        "id": 5963,
-        "solved": false,
-        "line": 5
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "cuentas\\acuerdos"
-  },
-  {
-    "name": "nuevacuenta-confirmacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\altaCuentas\\js\\nuevacuenta-confirmacion.js",
-    "errors": [
-      {
-        "content": "\t\turl: \"/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaConfirmar?\" + $.param(params),",
-        "id": 8143,
-        "solved": false,
-        "line": 7
-      },
-      {
-        "content": "\t\turl: \"/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaPopUp?\" + $.param(params),",
-        "id": 7697,
-        "solved": false,
-        "line": 44
-      },
-      {
-        "content": "\tredireccionar(\"/femp/do/ux/cuentas/altaCuentas/constitucion/terminos/ver\");",
-        "id": 8722,
-        "solved": false,
-        "line": 77
-      },
-      {
-        "content": "\t\tpreAltaConfirmar(filters, \"/femp/do/ux/cuentas/altaCuentas/constitucion/verificarAltaPendienteDeFirma?\");",
-        "id": 6800,
-        "solved": false,
-        "line": 100
+        "line": 245
       }
     ],
     "show": true,
@@ -707,256 +263,40 @@
     "circuito": "cuentas\\altaCuentas"
   },
   {
-    "name": "altaIntervinientes-desvinculacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\altaIntervinientes\\js\\altaIntervinientes-desvinculacion.js",
+    "name": "nuevacuenta-confirmacion",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\altaCuentas\\js\\nuevacuenta-confirmacion.js",
     "errors": [
       {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/altaIntervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 9684,
+        "content": "\t\turl: \"/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaConfirmar?\" + $.param(params),",
+        "id": 9430,
         "solved": false,
-        "line": 15
+        "line": 8
       },
       {
-        "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/altaIntervinientes/desvinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 6326,
+        "content": "\t\turl: \"/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaPopUp?\" + $.param(params),",
+        "id": 5340,
         "solved": false,
-        "line": 36
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL = \u0027/femp/do/ux/cuentas/altaIntervinientes/desvinculacion\u0027;",
-        "id": 4570,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "cuentas\\altaIntervinientes"
-  },
-  {
-    "name": "altaIntervinientes-nuevo",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\altaIntervinientes\\js\\altaIntervinientes-nuevo.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/altaIntervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 7591,
-        "solved": false,
-        "line": 61
+        "line": 31
       },
       {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 7861,
-        "solved": false,
-        "line": 75
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL = \u0027/femp/do/ux/cuentas/altaIntervinientes/nuevo\u0027;",
-        "id": 3404,
-        "solved": false,
-        "line": 3
-      },
-      {
-        "content": "var URL_SIGUIENTE = \u0027/femp/do/ux/cuentas/altaIntervinientes/vinculacion\u0027;",
-        "id": 3829,
-        "solved": false,
-        "line": 4
-      }
-    ],
-    "circuito": "cuentas\\altaIntervinientes"
-  },
-  {
-    "name": "altaIntervinientes-vinculacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\altaIntervinientes\\js\\altaIntervinientes-vinculacion.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 7683,
-        "solved": false,
-        "line": 44
-      },
-      {
-        "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/altaIntervinientes/vinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 5092,
-        "solved": false,
-        "line": 65
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL = \u0027/femp/do/ux/cuentas/altaIntervinientes/vinculacion\u0027;",
-        "id": 3452,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "cuentas\\altaIntervinientes"
-  },
-  {
-    "name": "intervinientes-desvinculacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\intervinientes\\js\\intervinientes-desvinculacion.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 9470,
-        "solved": false,
-        "line": 15
-      },
-      {
-        "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/intervinientes/desvinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 8874,
-        "solved": false,
-        "line": 36
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL = \u0027/femp/do/ux/cuentas/intervinientes/desvinculacion\u0027;",
-        "id": 2694,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "cuentas\\intervinientes"
-  },
-  {
-    "name": "intervinientes-nuevo",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\intervinientes\\js\\intervinientes-nuevo.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/inicio?\"+jQuery.param(filters));",
-        "id": 5578,
-        "solved": false,
-        "line": 58
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 5457,
+        "content": "\t\tpreAltaConfirmar(filters, \"/femp/do/ux/cuentas/altaCuentas/constitucion/verificarAltaPendienteDeFirma?\");",
+        "id": 6176,
         "solved": false,
         "line": 67
       }
     ],
     "show": true,
     "solved": false,
-    "variables": [
-      {
-        "content": "var URL = \u0027/femp/do/ux/cuentas/intervinientes/nuevo\u0027;",
-        "id": 1297,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "cuentas\\intervinientes"
-  },
-  {
-    "name": "intervinientes-vinculacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\intervinientes\\js\\intervinientes-vinculacion.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/intervinientes/cliente/inicio?\"+jQuery.param(filters));",
-        "id": 5150,
-        "solved": false,
-        "line": 16
-      },
-      {
-        "content": "\t\t\tredireccionar(\"/femp/do/ux/cuentas/intervinientes/vinculacion/resumen?\"+ jQuery.param(filters));",
-        "id": 5500,
-        "solved": false,
-        "line": 37
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URL = \u0027/femp/do/ux/cuentas/intervinientes/vinculacion\u0027;",
-        "id": 1890,
-        "solved": false,
-        "line": 3
-      }
-    ],
-    "circuito": "cuentas\\intervinientes"
-  },
-  {
-    "name": "movimientos",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\movimientos\\js\\movimientos.js",
-    "errors": [
-      {
-        "content": "\t\tvar load = \"\u003ctable class=\u0027table\u0027\u003e\u003ctr\u003e\u003ctd colspan=\u00277\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\";",
-        "id": 6548,
-        "solved": false,
-        "line": 83
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=7069\u0026pb_url=/do/ux/pagos/reversas/tarjetas/inicio?nuevoContexto=true\u0026\".concat($.param(params));",
-        "id": 3760,
-        "solved": false,
-        "line": 255
-      },
-      {
-        "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=7069\u0026pb_url=/do/ux/pagos/reversas/prestamos/inicio?nuevoContexto=true\u0026\".concat($.param(params));",
-        "id": 1450,
-        "solved": false,
-        "line": 275
-      }
-    ],
-    "circuito": "cuentas\\movimientos"
-  },
-  {
-    "name": "portada",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\portada\\js\\portada.js",
-    "errors": [
-      {
-        "content": "\t\thtmlfileload(\u0027/femp/ux2/js/portada-parent.js\u0027, \u0027js\u0027, true);",
-        "id": 8751,
-        "solved": false,
-        "line": 592
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "var URI = \u0027/femp/do/ux/cuentas/portada\u0027;",
-        "id": 629,
-        "solved": false,
-        "line": 2
-      }
-    ],
-    "circuito": "cuentas\\portada"
+    "variables": [],
+    "circuito": "cuentas\\altaCuentas"
   },
   {
     "name": "portadaV2",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\portada\\js\\portadaV2.js",
     "errors": [
       {
-        "content": "\tredireccionar((\u0027/femp/do/ux/cuentas/portadaV2?refIdEmpresa=\u0027).concat($(\u0027#refIdEmpresa\u0027).val()));",
-        "id": 9907,
-        "solved": false,
-        "line": 82
-      },
-      {
-        "content": "\t\thtmlfileload(\u0027/femp/resources/temas/coronita/js/portada-parent.js\u0027, \u0027js\u0027, true);",
-        "id": 7225,
-        "solved": false,
-        "line": 727
-      },
-      {
         "content": "\t\t    \turl: \u0027/femp/do/ux/cuentas/campania/enviarMailCampania\u0027,",
-        "id": 6044,
+        "id": 9154,
         "solved": false,
         "line": 884
       }
@@ -966,25 +306,25 @@
     "variables": [
       {
         "content": "var URI = \u0027/femp/do/ux/cuentas/portada\u0027;",
-        "id": 385,
+        "id": 716,
         "solved": false,
         "line": 3
       },
       {
         "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=8600\u0026pb_url=/do/ux/pagos/haberes/alta/pago/sueldo/pago?nuevoContexto=true\u0026\".concat($.param(data));",
-        "id": 322,
+        "id": 4057,
         "solved": false,
         "line": 59
       },
       {
         "content": "\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=8600\u0026pb_url=/do/ux/cuentas/campania/alta?\".concat($.param(data));",
-        "id": 1343,
+        "id": 66,
         "solved": false,
         "line": 70
       },
       {
         "content": "\tvar URI_AUX = \u0027/femp/do/ux/cuentas\u0027;",
-        "id": 2165,
+        "id": 4149,
         "solved": false,
         "line": 692
       }
@@ -992,170 +332,12 @@
     "circuito": "cuentas\\portada"
   },
   {
-    "name": "administracion_psp",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\psp\\js\\administracion_psp.js",
-    "errors": [
-      {
-        "content": "\tredirect(\"/femp/do/ux/cuentas/vincular_cuenta_psp?\" + jQuery.param(filters));",
-        "id": 8766,
-        "solved": false,
-        "line": 24
-      },
-      {
-        "content": "\tredirect(\"/femp/do/ux/cuentas/vincular_cuenta_psp?\" + jQuery.param(filters));",
-        "id": 6727,
-        "solved": false,
-        "line": 31
-      },
-      {
-        "content": "\tredirect(\"/femp/do/ux/cuentas/alta_masiva?\" + jQuery.param(filters));",
-        "id": 7136,
-        "solved": false,
-        "line": 38
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 6178,
-        "solved": false,
-        "line": 263
-      },
-      {
-        "content": "\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 5212,
-        "solved": false,
-        "line": 341
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\tvar urlDescarga = \"/femp/do/ux/cuentas/descargar_archivo\";",
-        "id": 2910,
-        "solved": false,
-        "line": 56
-      },
-      {
-        "content": "\tvar urlDescarga = \"/femp/do/ux/cuentas/descargar_archivo_respuesta\";",
-        "id": 1772,
-        "solved": false,
-        "line": 92
-      },
-      {
-        "content": "\t\tvar urlVinculacion = \"/femp/do/ux/cuentas/pendiente_gestion_apikey\";",
-        "id": 3379,
-        "solved": false,
-        "line": 323
-      }
-    ],
-    "circuito": "cuentas\\psp"
-  },
-  {
-    "name": "psp",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\cuentas\\psp\\js\\psp.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/tyc?\" + jQuery.param(filters));",
-        "id": 8721,
-        "solved": false,
-        "line": 87
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/adherir_servicio?\" + jQuery.param(filters));",
-        "id": 6042,
-        "solved": false,
-        "line": 93
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 9544,
-        "solved": false,
-        "line": 99
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 6768,
-        "solved": false,
-        "line": 106
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/cuentas/alta_psp?\" + jQuery.param(filters));",
-        "id": 7772,
-        "solved": false,
-        "line": 112
-      },
-      {
-        "content": "\t\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 8230,
-        "solved": false,
-        "line": 135
-      },
-      {
-        "content": "\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 9599,
-        "solved": false,
-        "line": 167
-      },
-      {
-        "content": "\t    \t\tredirect(\"/femp/do/ux/cuentas/firma_psp?\" + jQuery.param(filters));",
-        "id": 7814,
-        "solved": false,
-        "line": 205
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\t\tvar urlAlta = \"/femp/do/ux/cuentas/pendiente_firma_alta_psp\";",
-        "id": 481,
-        "solved": false,
-        "line": 117
-      },
-      {
-        "content": "\t\tvar urlVinculacion = \"/femp/do/ux/cuentas/pendiente_vincular_cuenta_psp\";",
-        "id": 385,
-        "solved": false,
-        "line": 149
-      },
-      {
-        "content": "\t\tvar urlModificacion = \"/femp/do/ux/cuentas/pendiente_modificar_cuenta_psp\";",
-        "id": 4249,
-        "solved": false,
-        "line": 187
-      }
-    ],
-    "circuito": "cuentas\\psp"
-  },
-  {
-    "name": "eresumen",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\eresumen\\js\\eresumen.js",
-    "errors": [
-      {
-        "content": "\t\t$(detalle).append(\"\u003ctd id=\u0027loadContainer\u0027 colspan=\u0027\" + col + \"\u0027\u003e\u003cdiv id=\u0027loader\u0027\u003e\u003cimg src=\u0027/femp/ux2/images/loader.gif\u0027 /\u003e\u003c/div\u003e\u003c/td\u003e\");\t",
-        "id": 8861,
-        "solved": false,
-        "line": 264
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "eresumen"
-  },
-  {
     "name": "exencion-impositiva-listado",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\exencion\\impositiva\\js\\exencion-impositiva-listado.js",
     "errors": [
       {
-        "content": "\t\tredirect(\"/femp/do/ux/exencion/impositiva/listado?\"+jQuery.param(filters));",
-        "id": 5630,
-        "solved": false,
-        "line": 23
-      },
-      {
         "content": "\t        url: \"/femp/do/ux/exencion/impositiva/validarSolicitud\",",
-        "id": 6523,
+        "id": 7662,
         "solved": false,
         "line": 42
       }
@@ -1170,32 +352,8 @@
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\exencion\\impositiva\\js\\exencion-impositiva.js",
     "errors": [
       {
-        "content": "\t\tredirect(\"/femp/do/ux/exencion/impositiva/inicio?\"+jQuery.param(filters));",
-        "id": 5273,
-        "solved": false,
-        "line": 43
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/condicion/impositiva/inicio?\"+jQuery.param(filters));",
-        "id": 6681,
-        "solved": false,
-        "line": 48
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/exencion/impositiva/listado?\"+jQuery.param(filters));",
-        "id": 5022,
-        "solved": false,
-        "line": 54
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/utilidades/cargaDocumentacion/subida/actualizarCondicionImpositiva?\" + jQuery.param(filters));",
-        "id": 9287,
-        "solved": false,
-        "line": 101
-      },
-      {
         "content": "\t\turl: \u0027/femp/do/ux/cuentas/portada/buscarEjecutivoDeCuenta\u0027,",
-        "id": 7364,
+        "id": 8479,
         "solved": false,
         "line": 127
       }
@@ -1206,122 +364,36 @@
     "circuito": "exencion\\impositiva"
   },
   {
-    "name": "calificacionSimulacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\financiacion\\calificacion\\js\\calificacionSimulacion.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/financiacion/calificacion/inicio?\"+jQuery.param(filters));",
-        "id": 9619,
-        "solved": false,
-        "line": 24
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "financiacion\\calificacion"
-  },
-  {
-    "name": "leasing-gestion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\financiacion\\leasing\\js\\leasing-gestion.js",
-    "errors": [
-      {
-        "content": "var URL=\u0027/femp/do/ux/financiacion/leasing/gestion\u0027",
-        "id": 6590,
-        "solved": false,
-        "line": 13
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "financiacion\\leasing"
-  },
-  {
-    "name": "cuentaCustodia-asociar",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\inversiones\\custodia\\js\\cuentaCustodia-asociar.js",
-    "errors": [
-      {
-        "content": "\tredirect(\"/femp/do/ux/inversiones/custodia/asociar/inicio?\"+jQuery.param(filters));\t",
-        "id": 8540,
-        "solved": false,
-        "line": 12
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "inversiones\\custodia"
-  },
-  {
-    "name": "instruccionesPlazoFijo-nuevo",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\inversiones\\instrucciones\\plazofijo\\js\\instruccionesPlazoFijo-nuevo.js",
-    "errors": [
-      {
-        "content": "\t\t\t$(\"#altaInstruccionesForm\").attr(\"action\", \"/femp/do/ux/inversiones/instrucciones/plazofijo/altaFirmar\");",
-        "id": 6547,
-        "solved": false,
-        "line": 157
-      },
-      {
-        "content": "\t\t\t$(\"#altaInstruccionesForm\").attr(\"action\", \"/femp/do/ux/inversiones/instrucciones/plazofijo/alta\");",
-        "id": 8529,
-        "solved": false,
-        "line": 176
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "inversiones\\instrucciones"
-  },
-  {
-    "name": "instruccionesPlazoFijo-renovacion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\inversiones\\instrucciones\\plazofijo\\js\\instruccionesPlazoFijo-renovacion.js",
-    "errors": [
-      {
-        "content": "\t\t\t$(\"#altaInstruccionesForm\").attr(\"action\", \"/femp/do/ux/inversiones/instrucciones/plazofijo/renovar\");",
-        "id": 6253,
-        "solved": false,
-        "line": 109
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "inversiones\\instrucciones"
-  },
-  {
     "name": "nuevoTitulo",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\inversiones\\instrucciones\\titulos\\js\\nuevoTitulo.js",
     "errors": [
       {
         "content": "\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularImporte\",",
-        "id": 7539,
+        "id": 6218,
         "solved": false,
         "line": 243
       },
       {
         "content": "\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularCantidadNominal\",",
-        "id": 7674,
+        "id": 7280,
         "solved": false,
         "line": 261
       },
       {
         "content": "\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/bancos?\"+jQuery.param(filters),",
-        "id": 7857,
+        "id": 5407,
         "solved": false,
         "line": 391
       },
       {
         "content": "\t\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?\"+jQuery.param(filters),",
-        "id": 8778,
+        "id": 7587,
         "solved": false,
         "line": 417
       },
       {
         "content": "\t\t        url: \"/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?\"+jQuery.param(filters),",
-        "id": 7999,
+        "id": 5150,
         "solved": false,
         "line": 450
       }
@@ -1332,20 +404,33 @@
     "circuito": "inversiones\\instrucciones"
   },
   {
-    "name": "monitor-detalle",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\monitor\\js\\monitor-detalle.js",
+    "name": "nuevoPlazoFijo",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\inversiones\\plazo\\fijo\\js\\nuevoPlazoFijo.js",
     "errors": [
       {
-        "content": "\t\tredirect(\"/femp/do/ux/monitor/inicio?modo=\".concat(modo));",
-        "id": 5840,
+        "content": "            url: \u0027/femp/do/ux/inversiones/plazo/fijo/constitucion/tasas?\u0027+$.param(params),",
+        "id": 7147,
         "solved": false,
-        "line": 87
+        "line": 113
+      },
+      {
+        "content": "\t\t\tlocation.assign(\"/femp/do/ux/inversiones/plazo/fijo/constitucion/inicio?\"+jQuery.param(filters));",
+        "id": 6544,
+        "solved": false,
+        "line": 196
       }
     ],
     "show": true,
     "solved": false,
-    "variables": [],
-    "circuito": "monitor"
+    "variables": [
+      {
+        "content": "var URL_CIRCUITO  = \u0027/femp/do/ux/inversiones/plazo/fijo\u0027;",
+        "id": 4363,
+        "solved": false,
+        "line": 1
+      }
+    ],
+    "circuito": "inversiones\\plazo"
   },
   {
     "name": "monitor",
@@ -1353,7 +438,7 @@
     "errors": [
       {
         "content": "            \"url\": \"/femp/ux3/assets/datatables/plug-ins/Spanish.json\"",
-        "id": 5698,
+        "id": 8855,
         "solved": false,
         "line": 254
       }
@@ -1363,19 +448,19 @@
     "variables": [
       {
         "content": "    let url = \"/femp/do/ux/monitor/list\";",
-        "id": 3405,
+        "id": 3647,
         "solved": false,
         "line": 308
       },
       {
         "content": "    let url = \"/femp/do/ux/monitor/find/porcentajeGlobal\";",
-        "id": 1974,
+        "id": 3815,
         "solved": false,
         "line": 335
       },
       {
         "content": "    let url = \"/femp/do/ux/monitor/find/titulos\";",
-        "id": 3540,
+        "id": 1668,
         "solved": false,
         "line": 565
       }
@@ -1383,44 +468,12 @@
     "circuito": "monitor"
   },
   {
-    "name": "ivr-confirmar-datos-documento",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\operaciones\\ivr\\js\\ivr-confirmar-datos-documento.js",
-    "errors": [
-      {
-        "content": "        redireccionar(\u0027/femp/do/ux/operaciones/ivr/inicio\u0027);",
-        "id": 9627,
-        "solved": false,
-        "line": 51
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "operaciones\\ivr"
-  },
-  {
-    "name": "ivr-confirmar-datos-ok",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\operaciones\\ivr\\js\\ivr-confirmar-datos-ok.js",
-    "errors": [
-      {
-        "content": "\t\tredireccionar(\"/femp/do/ux/operaciones/ivr/inicio\");",
-        "id": 8082,
-        "solved": false,
-        "line": 37
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "operaciones\\ivr"
-  },
-  {
     "name": "confirmarTramite",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\operaciones\\recuperoDocumentacion\\js\\confirmarTramite.js",
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 5207,
+        "id": 9444,
         "solved": false,
         "line": 2
       }
@@ -1436,7 +489,7 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 7227,
+        "id": 9131,
         "solved": false,
         "line": 2
       }
@@ -1452,7 +505,7 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 7594,
+        "id": 5386,
         "solved": false,
         "line": 2
       }
@@ -1468,7 +521,7 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 8436,
+        "id": 7852,
         "solved": false,
         "line": 5
       }
@@ -1484,7 +537,7 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 9214,
+        "id": 6098,
         "solved": false,
         "line": 2
       }
@@ -1500,7 +553,7 @@
     "errors": [
       {
         "content": "\t\tURL_BASE : \u0027/femp/do/ux/operaciones/recuperoDocumentacion/\u0027,",
-        "id": 9179,
+        "id": 8847,
         "solved": false,
         "line": 2
       }
@@ -1511,163 +564,12 @@
     "circuito": "operaciones\\recuperoDocumentacion"
   },
   {
-    "name": "pagosAfip",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\pagos\\afip\\js\\pagosAfip.js",
-    "errors": [
-      {
-        "content": "\tredirect(\"/femp/do/ux/pagos/afip/nuevo/pago/inicio?\"+jQuery.param(filters));",
-        "id": 7208,
-        "solved": false,
-        "line": 294
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/pagos/afip/inicio?\"+jQuery.param(filters));",
-        "id": 6856,
-        "solved": false,
-        "line": 321
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\t\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarExcelPendientes?\" + jQuery.param(filters);",
-        "id": 271,
-        "solved": false,
-        "line": 327
-      },
-      {
-        "content": "\t\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarExcelPresentaciones?\" + jQuery.param(filters);",
-        "id": 4160,
-        "solved": false,
-        "line": 330
-      },
-      {
-        "content": "\t\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarExcelPagos?\" + jQuery.param(filters);",
-        "id": 20,
-        "solved": false,
-        "line": 333
-      },
-      {
-        "content": "\t\tvar pathServiceHost = \"/femp/do/ux/pagos/afip/descargarComprobantePago?\" + jQuery.param(filters);",
-        "id": 4495,
-        "solved": false,
-        "line": 376
-      }
-    ],
-    "circuito": "pagos\\afip"
-  },
-  {
-    "name": "pagosAfipNuevo",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\pagos\\afip\\js\\pagosAfipNuevo.js",
-    "errors": [
-      {
-        "content": "\tredirect(\"/femp/do/ux/pagos/afip/inicio?\"+jQuery.param(filters));\t",
-        "id": 6013,
-        "solved": false,
-        "line": 10
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/pagos/afip/inicio?\"+jQuery.param(filters));",
-        "id": 8224,
-        "solved": false,
-        "line": 66
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos\\afip"
-  },
-  {
-    "name": "debito-directo",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\pagos\\debito\\directo\\js\\debito-directo.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/pagos/debito/directo/inicio?\"+jQuery.param(filters));",
-        "id": 9133,
-        "solved": false,
-        "line": 22
-      },
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/pagos/debito/directo/solicitud?\"+jQuery.param(filters));",
-        "id": 5986,
-        "solved": false,
-        "line": 27
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos\\debito"
-  },
-  {
-    "name": "solicitud-debito",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\pagos\\debito\\directo\\js\\solicitud-debito.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/pagos/debito/directo/solicitud?\"+jQuery.param(filters));",
-        "id": 5642,
-        "solved": false,
-        "line": 33
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos\\debito"
-  },
-  {
-    "name": "transferencias-mep-agenda-nuevo",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\pagos\\transferencias\\mep\\js\\transferencias-mep-agenda-nuevo.js",
-    "errors": [
-      {
-        "content": "\t\tredireccionar(\"/femp/do/ux/pagos/transferencias/mep\",filters);",
-        "id": 5796,
-        "solved": false,
-        "line": 243
-      },
-      {
-        "content": "\t\t\t$(\"#form\").attr(\"action\", \"/femp/do/ux/pagos/transferencias/mep/agenda/alta/\".concat(id));",
-        "id": 8662,
-        "solved": false,
-        "line": 249
-      },
-      {
-        "content": "\t    \tredireccionar(\"/femp/do/ux/pagos/transferencias/mep\",filters);",
-        "id": 9380,
-        "solved": false,
-        "line": 275
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos\\transferencias"
-  },
-  {
-    "name": "transferenciasOnline-realizadas",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\pagos\\transferencias\\online\\js\\transferenciasOnline-realizadas.js",
-    "errors": [
-      {
-        "content": "\tif (urlpedido.startsWith(\"/femp/\")) {",
-        "id": 5680,
-        "solved": false,
-        "line": 201
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos\\transferencias"
-  },
-  {
     "name": "altaTarjeta-resumen",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\tarjetas\\js\\altaTarjeta-resumen.js",
     "errors": [
       {
         "content": "\t\t\t\t\t\t+ \"/femp/do/ux/tarjetas/pendienteDeFirma/firmar?\"",
-        "id": 5406,
+        "id": 8111,
         "solved": false,
         "line": 14
       }
@@ -1683,7 +585,7 @@
     "errors": [
       {
         "content": "\t\t\t\t\t+ \"/femp/do/ux/tarjetas/pendienteDeFirma/firmar?\"",
-        "id": 8978,
+        "id": 9176,
         "solved": false,
         "line": 16
       }
@@ -1698,38 +600,20 @@
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\tarjetas\\js\\gestionTarjetas-inicio.js",
     "errors": [
       {
-        "content": "\tredirect(\"/femp/do/ux/tarjetas/inicio?\"+jQuery.param(filters));",
-        "id": 7976,
-        "solved": false,
-        "line": 75
-      },
-      {
-        "content": "\t\t\t\t\tredirect(\"/femp/do/ux/tarjetas/inicio?\"",
-        "id": 8062,
-        "solved": false,
-        "line": 131
-      },
-      {
-        "content": "\t\t\t\t\tredirect(\"/femp/do/ux/tarjetas/inicio?\"",
-        "id": 8176,
-        "solved": false,
-        "line": 143
-      },
-      {
         "content": "\t\t\t\t\t\t\tguardarCuentaSeleccionada(\u0027/femp/do/ux/tarjetas/alta\u0027);",
-        "id": 9036,
+        "id": 8091,
         "solved": false,
         "line": 288
       },
       {
         "content": "\tguardarCuentaSeleccionada(\"/femp/do/ux/tarjetas/baja?\" + jQuery.param(filtrosBorrado));",
-        "id": 6993,
+        "id": 7271,
         "solved": false,
         "line": 505
       },
       {
         "content": "\t\t\tguardarCuentaSeleccionada(\"/femp/do/ux/tarjetas/modificar\");",
-        "id": 8190,
+        "id": 6289,
         "solved": false,
         "line": 523
       }
@@ -1740,98 +624,14 @@
     "circuito": "tarjetas"
   },
   {
-    "name": "basic",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\templates\\js\\basic.js",
-    "errors": [
-      {
-        "content": "\t\tredirect(\"/femp/do/ux/template/basic/inicio?\"+jQuery.param(filters));",
-        "id": 6407,
-        "solved": false,
-        "line": 37
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "templates"
-  },
-  {
-    "name": "modal_sample",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\templates\\js\\modal_sample.js",
-    "errors": [
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_01.jpg\u0027, \u00271\u0027);",
-        "id": 9105,
-        "solved": false,
-        "line": 23
-      },
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_01.jpg\u0027, \u00271\u0027);",
-        "id": 9720,
-        "solved": false,
-        "line": 32
-      },
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_02.jpg\u0027, \u00272\u0027);\t\t",
-        "id": 9253,
-        "solved": false,
-        "line": 33
-      },
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_imagen_03.jpg\u0027, \u00273\u0027);",
-        "id": 5976,
-        "solved": false,
-        "line": 34
-      },
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_1.png\u0027, \u00271\u0027);",
-        "id": 6165,
-        "solved": false,
-        "line": 43
-      },
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_2.png\u0027, \u00272\u0027);",
-        "id": 9997,
-        "solved": false,
-        "line": 44
-      },
-      {
-        "content": "\t\t_modal_manager.AddImage(\u0027/femp/pibeeUx2/bbva/img/sliders/bbva_ONB_3.png\u0027, \u00273\u0027);",
-        "id": 9350,
-        "solved": false,
-        "line": 45
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "templates"
-  },
-  {
     "name": "baja",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\token\\js\\baja.js",
     "errors": [
       {
         "content": "\t\t\turl: \u0027/femp/do/ux/token/baja/guardar?\u0027+jQuery.param(filters),",
-        "id": 7446,
+        "id": 8196,
         "solved": false,
         "line": 118
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "token"
-  },
-  {
-    "name": "gestion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\view\\ux\\token\\js\\gestion.js",
-    "errors": [
-      {
-        "content": "\t\turl: \u0027/femp/do/ux/token/gestion/eliminar?\u0027 + $.param(filtrosBorrado),",
-        "id": 6642,
-        "solved": false,
-        "line": 75
       }
     ],
     "show": true,
@@ -1845,7 +645,7 @@
     "errors": [
       {
         "content": "\t    url: \u0027/femp/do/ux/utilidades/documentacion/envio/legal/actualizarCantidadDeEmpleados\u0027,",
-        "id": 5071,
+        "id": 8588,
         "solved": false,
         "line": 142
       }
@@ -1855,31 +655,31 @@
     "variables": [
       {
         "content": "    var aux_url = \u0027/femp/do/ux/utilidades/documentacion/envio/legal/eliminar\u0027;",
-        "id": 4506,
+        "id": 64,
         "solved": false,
         "line": 32
       },
       {
         "content": "    var action = \"/femp/do/ux/utilidades/documentacion/envio/legal/confirmar\";",
-        "id": 2878,
+        "id": 3123,
         "solved": false,
         "line": 43
       },
       {
         "content": "      var aux_url = \u0027/femp/do/ux/utilidades/documentacion/envio/legal/agregar\u0027;",
-        "id": 3733,
+        "id": 3440,
         "solved": false,
         "line": 117
       },
       {
         "content": "            var aux_url = \u0027/femp/do/ux/utilidades/documentacion/envio/legal/agregar\u0027;",
-        "id": 1908,
+        "id": 2790,
         "solved": false,
         "line": 322
       },
       {
         "content": "\t\tvar url = \"/femp/servlet/PIBEE?pb_cod_serv=7049\u0026pb_url=/do/ux/financiacion/prestamos/fogar/inicio?nuevoContexto=true\u0026nombreCircuito=PRESTAMOS_FOGAR\u0026\";",
-        "id": 745,
+        "id": 498,
         "solved": false,
         "line": 363
       }
@@ -1887,50 +687,12 @@
     "circuito": "utilidades\\cargaDocumentacion"
   },
   {
-    "name": "certificacionesOtrosBancos-excepcionDJAI",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\comex\\js\\certificacionesOtrosBancos-excepcionDJAI.js",
-    "errors": [
-      {
-        "content": "\tdocument.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=agregarExcepcionDJAI\u0026primerAcceso=false\";",
-        "id": 7009,
-        "solved": false,
-        "line": 21
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comex"
-  },
-  {
-    "name": "emisionTransferencias-cargaDJAI",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\comex\\js\\emisionTransferencias-cargaDJAI.js",
-    "errors": [
-      {
-        "content": "\t\tdocument.getElementById(\"minusPlus\"+id).src=\"/femp/images/treeExpand_minus.gif\";",
-        "id": 6743,
-        "solved": false,
-        "line": 14
-      },
-      {
-        "content": "\t\tdocument.getElementById(\"minusPlus\"+id).src=\"/femp/images/treeExpand_plus.gif\";",
-        "id": 5706,
-        "solved": false,
-        "line": 20
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "comex"
-  },
-  {
     "name": "financiamientoExportacionVigentes-listado",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\comex\\js\\financiamientoExportacionVigentes-listado.js",
     "errors": [
       {
         "content": "            doSubmitFila(\u0027/femp/mod/comex/financiamientoExportacionVigentesListado.do?opc=detalle\u0027);",
-        "id": 5771,
+        "id": 6829,
         "solved": false,
         "line": 59
       }
@@ -1946,7 +708,7 @@
     "errors": [
       {
         "content": "\t\t\t\t\t+ \"/femp/mod/comex/simulacionVencimiento-jspServices_Trans_GWG5.jsp?accion=\"",
-        "id": 9889,
+        "id": 6792,
         "solved": false,
         "line": 325
       }
@@ -1957,47 +719,12 @@
     "circuito": "comex"
   },
   {
-    "name": "tramiteSEPAIMPOOtrosBancos-despachos",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\comex\\js\\tramiteSEPAIMPOOtrosBancos-despachos.js",
-    "errors": [
-      {
-        "content": "    document.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=detalleFactDespachos\";",
-        "id": 7446,
-        "solved": false,
-        "line": 83
-      },
-      {
-        "content": "\tdocument.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=aplicarDespacho\u0026primerAcceso=false\";",
-        "id": 7996,
-        "solved": false,
-        "line": 90
-      },
-      {
-        "content": "\tdocument.formDespacho.action=\"/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=eliminarDespacho\u0026primerAcceso=false\";",
-        "id": 6774,
-        "solved": false,
-        "line": 103
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\tdocument.formBotonera.action = \u0027/femp/mod/comex/tramiteSEPAIMPOOtrosBancos.do?accion=aceptarDespachos\u0027;",
-        "id": 86,
-        "solved": false,
-        "line": 113
-      }
-    ],
-    "circuito": "comex"
-  },
-  {
     "name": "cuentaExtractoFechasControlD-Async",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\cuentas\\js\\cuentaExtractoFechasControlD-Async.js",
     "errors": [
       {
         "content": "\t\turl : \"/femp/mod/cuentas/eResumen.do?dispatch=cargarResumen\u0026ts=\"+ (new Date().getTime()) + \"\u0026indiceFecha=\"+ indice + \"\u0026refcli=\"+refcli + \"\u0026cta=\"+refcta + \"\u0026origen=\"+origen + \"\u0026sus=\"+sus + \"\u0026ctra=\"+ctra + \"\u0026nCta=\"+nCta,",
-        "id": 7151,
+        "id": 7691,
         "solved": false,
         "line": 13
       }
@@ -2007,13 +734,13 @@
     "variables": [
       {
         "content": "\t\t\t\t\t\twindow.location.href = \"/femp/mod/cuentas/eResumen.do?dispatch=mostrarExtracto\";",
-        "id": 3283,
+        "id": 4239,
         "solved": false,
         "line": 21
       },
       {
         "content": "\t\t\t\t\t\twindow.location.href = \"/femp/logout.jsp\";",
-        "id": 4098,
+        "id": 2780,
         "solved": false,
         "line": 27
       }
@@ -2026,7 +753,7 @@
     "errors": [
       {
         "content": " \t\t\t\turl : \"/femp/mod/cuentas/eResumen.do?dispatch=guardarSolapas\u0026ts=\"+ (new Date().getTime()) + \"\u0026sc=\"+ sc + \"\u0026st=\"+ st,",
-        "id": 6227,
+        "id": 8341,
         "solved": false,
         "line": 49
       }
@@ -2037,58 +764,12 @@
     "circuito": "cuentas"
   },
   {
-    "name": "estadisticas-grafico",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\estadisticas\\js\\estadisticas-grafico.js",
-    "errors": [
-      {
-        "content": "\tdocument.forms.estadisticasForm.action=\u0027/femp/mod/estadisticas/estadisticasGrafico.do?target=10\u0027;",
-        "id": 8844,
-        "solved": false,
-        "line": 10
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\tdocument.forms.estadisticasForm.action = \u0027/femp/mod/estadisticas/estadisticasListado.do?target=10\u0027;",
-        "id": 185,
-        "solved": false,
-        "line": 4
-      }
-    ],
-    "circuito": "estadisticas"
-  },
-  {
-    "name": "estadisticas-listado",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\estadisticas\\js\\estadisticas-listado.js",
-    "errors": [
-      {
-        "content": "\tdocument.forms.estadisticasForm.action=\u0027/femp/mod/estadisticas/estadisticasHistoricoListado.do?target=10\u0027;",
-        "id": 6026,
-        "solved": false,
-        "line": 23
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [
-      {
-        "content": "\tdocument.forms.estadisticasForm.action = \u0027/femp/mod/estadisticas/estadisticasGrafico.do?target=10\u0027;",
-        "id": 2876,
-        "solved": false,
-        "line": 43
-      }
-    ],
-    "circuito": "estadisticas"
-  },
-  {
     "name": "compraAccionesBonos-filtro",
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\inversiones\\js\\compraAccionesBonos-filtro.js",
     "errors": [
       {
         "content": "\t\turl: \"/femp/mod/inversiones/compraAccionesBonosNew.do?accion=consultarPermisos\u0026cuenta=\"+cuentaCustodia,",
-        "id": 9569,
+        "id": 8485,
         "solved": false,
         "line": 55
       }
@@ -2104,13 +785,13 @@
     "errors": [
       {
         "content": "  \t\twindow.location.replace(\u0027/femp/do/ux/common/redirect?id=perfilInversor\u0026parametros=refIdEmpresa=\u0027 + $(\"#refIdEmpresa\").val());",
-        "id": 8458,
+        "id": 5075,
         "solved": false,
         "line": 56
       },
       {
         "content": "        url: \u0027/femp/mod/inversiones/suscripcionRescate.do?accion=simularSuscripcion\u0027,",
-        "id": 8108,
+        "id": 8043,
         "solved": false,
         "line": 157
       }
@@ -2126,9 +807,9 @@
     "errors": [
       {
         "content": "\t\t\turl: \"/femp/mod/inversiones/plazoFijoConstitucion.do?metodo=actualizarTasaInteres\u0026claveAsunto=\"+claveAsunto,\t",
-        "id": 9128,
+        "id": 9073,
         "solved": false,
-        "line": 37
+        "line": 35
       }
     ],
     "show": true,
@@ -2142,7 +823,7 @@
     "errors": [
       {
         "content": "\t\turl: \"/femp/mod/inversiones/ventaAccionesBonosNew.do?accion=consultarPermisos\u0026cuenta=\"+cuentaCustodia,",
-        "id": 7705,
+        "id": 5564,
         "solved": false,
         "line": 55
       }
@@ -2158,7 +839,7 @@
     "errors": [
       {
         "content": "\t\t\t\t\t\tgoToUrl(\u0027/femp/mod/pagos/abmRetencionesDeduccionesGrilla.do?target=listado\u0027);",
-        "id": 9826,
+        "id": 6784,
         "solved": false,
         "line": 528
       }
@@ -2174,31 +855,31 @@
     "errors": [
       {
         "content": "\t\t\turl:\t\"/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes\",",
-        "id": 9227,
+        "id": 8178,
         "solved": false,
         "line": 9
       },
       {
         "content": "\t\t\t\t\t\t\t\t, href: \"/femp/mod/pagos/confeccionarPago.do?target=abmRetencion\"",
-        "id": 7299,
+        "id": 6084,
         "solved": false,
         "line": 19
       },
       {
         "content": "\t\t\turl:\t\"/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes\u0026obtenerDed=true\",",
-        "id": 9704,
+        "id": 7379,
         "solved": false,
         "line": 47
       },
       {
         "content": "\t\t\t\t\t\t\t, href: \"/femp/mod/pagos/confeccionarPago.do?target=abmDeduccion\u0026id=\" + id + \"\u0026editable=\" + document.getElementById(\u0027paramEditable\u0027).value",
-        "id": 9881,
+        "id": 6709,
         "solved": false,
         "line": 57
       },
       {
         "content": "\t\turl:\t\"/femp/mod/pagos/confeccionarPago.do?target=eliminaComprobante\u0026idComprobante=\" + idComprobante,",
-        "id": 7208,
+        "id": 7220,
         "solved": false,
         "line": 119
       }
@@ -2208,25 +889,25 @@
     "variables": [
       {
         "content": "\t\t\t\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=abmRetencion\";",
-        "id": 2908,
+        "id": 4412,
         "solved": false,
         "line": 13
       },
       {
         "content": "\t\t\t\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=abmDeduccion\u0026id=\" + id;",
-        "id": 1048,
+        "id": 230,
         "solved": false,
         "line": 51
       },
       {
         "content": "\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=volverConfeccionar\u0026editable=\" + document.getElementById(\u0027paramEditable\u0027).value;",
-        "id": 2332,
+        "id": 4499,
         "solved": false,
         "line": 132
       },
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/confeccionarPago.do?target=confirma\";",
-        "id": 1526,
+        "id": 1131,
         "solved": false,
         "line": 181
       }
@@ -2239,7 +920,7 @@
     "errors": [
       {
         "content": "\t\tgoToUrl(\"/femp/mod/pagos/confeccionarPago.do?target=volverConfeccionar\" + (titulo.indexOf(\u0027Pagos Pendientes\u0027) \u003e 0 ? \"\u0026editable=true\" : \"\"));",
-        "id": 8832,
+        "id": 5454,
         "solved": false,
         "line": 72
       }
@@ -2255,21 +936,9 @@
     "errors": [
       {
         "content": "\t\t\turl: \"/femp/mod/pagos/jspService_ConsultaNominas.jsp\",",
-        "id": 9897,
+        "id": 5323,
         "solved": false,
         "line": 112
-      },
-      {
-        "content": "\t\t\t\t\t\t\"\u003cinput class=\\\"aceptar\\\" type=\\\"button\\\" onclick=\\\"javascript:goToUrl(\u0027/femp/mod/pagos/consultaNominas.do?target=0\u0027)\\\"value=\\\"\" + jsMessagesPagos.volver + \"\\\" name=\\\"boton\\\"\u003e\" +",
-        "id": 8405,
-        "solved": false,
-        "line": 186
-      },
-      {
-        "content": "\twinOpenBase(\"/femp/mod/pagos/nominasConsultaNominas-listado-excel.jsp?\" +",
-        "id": 8144,
-        "solved": false,
-        "line": 211
       }
     ],
     "show": true,
@@ -2283,21 +952,15 @@
     "errors": [
       {
         "content": "\t\t\turl: \"/femp/mod/pagos/jspService_ConsultaPagos.jsp\",",
-        "id": 7584,
+        "id": 6619,
         "solved": false,
         "line": 55
       },
       {
         "content": "\t\t\t\t\t\t\"\u003cinput class=\\\"aceptar\\\" type=\\\"button\\\" onclick=\\\"javascript:goToUrl(\u0027/femp/mod/pagos/consultaPagos.do?target=0\u0027)\\\" \" +",
-        "id": 6991,
+        "id": 6393,
         "solved": false,
         "line": 126
-      },
-      {
-        "content": "\twinOpenBase(\"/femp/mod/pagos/nominasConsultaPagos-listado-excel.jsp?refCta=\" + ",
-        "id": 6418,
-        "solved": false,
-        "line": 151
       }
     ],
     "show": true,
@@ -2306,44 +969,12 @@
     "circuito": "pagos"
   },
   {
-    "name": "pagoDeuda-abmDeduccion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\pagos\\js\\pagoDeuda-abmDeduccion.js",
-    "errors": [
-      {
-        "content": "\t\t\t\"\u003cimg src=\\\"/femp/images/trash.gif\\\" border=\\\"0\\\"\u003e\" +",
-        "id": 6946,
-        "solved": false,
-        "line": 65
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos"
-  },
-  {
-    "name": "pagoDeuda-abmRetencion",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\pagos\\js\\pagoDeuda-abmRetencion.js",
-    "errors": [
-      {
-        "content": "\t\t\t\"\u003cimg src=\\\"/femp/images/trash.gif\\\" border=\\\"0\\\"\u003e\" +",
-        "id": 5938,
-        "solved": false,
-        "line": 90
-      }
-    ],
-    "show": true,
-    "solved": false,
-    "variables": [],
-    "circuito": "pagos"
-  },
-  {
-    "name": "pagoDeuda-confeccionar_Version_vieja",
-    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\pagos\\js\\pagoDeuda-confeccionar_Version_vieja.js",
+    "name": "pagoDeuda-confeccionar",
+    "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\pagos\\js\\pagoDeuda-confeccionar.js",
     "errors": [
       {
         "content": "\t\turl:\t\"/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts=\" +",
-        "id": 5452,
+        "id": 6380,
         "solved": false,
         "line": 29
       }
@@ -2353,19 +984,19 @@
     "variables": [
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/consultaRecaudaciones.do?target=40\u0026modo=confeccionarBoleta\";",
-        "id": 996,
+        "id": 2125,
         "solved": false,
         "line": 71
       },
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/consultaRecaudaciones.do?target=40\u0026modo=pagoDebitoBBVAFrances\";",
-        "id": 373,
+        "id": 1291,
         "solved": false,
         "line": 83
       },
       {
         "content": "\t\tdocument.formDetalleDocumentos.action = \"/femp/mod/pagos/consultaRecaudaciones.do?target=40\u0026modo=pagoDebitoInterbanking\";",
-        "id": 3280,
+        "id": 1246,
         "solved": false,
         "line": 95
       }
@@ -2378,19 +1009,19 @@
     "errors": [
       {
         "content": "\t\t\turl : \"/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts=\"",
-        "id": 8178,
+        "id": 5229,
         "solved": false,
         "line": 163
       },
       {
         "content": "\t\t\turl : \"/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts=\"",
-        "id": 9107,
+        "id": 8046,
         "solved": false,
         "line": 198
       },
       {
         "content": "\t\t\turl : \"/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts=\"",
-        "id": 5568,
+        "id": 8715,
         "solved": false,
         "line": 232
       }
@@ -2406,7 +1037,7 @@
     "errors": [
       {
         "content": "          url: \"/femp/mod/pagos/solicitudTarjetasDepositantes.do?accion=clickCheck\" + \"\u0026numeroDepositante=\" + numeroDepositante,",
-        "id": 8987,
+        "id": 9970,
         "solved": false,
         "line": 11
       }
@@ -2422,7 +1053,7 @@
     "errors": [
       {
         "content": "\t\tgoToUrl(\u0027/femp/servlet/PIBEE?pb_cod_serv=8803\u0026pb_url=/mod/proveedores/abmDepositantes.do?target=10\u0027);",
-        "id": 6286,
+        "id": 9047,
         "solved": false,
         "line": 154
       }
@@ -2432,19 +1063,19 @@
     "variables": [
       {
         "content": "\tdocument.formDetalle.urlReturn.value = \u0027/femp/mod/proveedores/abmDepositantes.do?target=20\u0027;",
-        "id": 4976,
+        "id": 3787,
         "solved": false,
         "line": 84
       },
       {
         "content": "\t\tdocument.formDetalle.urlReturn.value = \u0027/femp/mod/proveedores/abmDepositantes.do?target=20\u0027;",
-        "id": 2801,
+        "id": 2820,
         "solved": false,
         "line": 188
       },
       {
         "content": "\t\tdocument.formDetalle.urlReturn.value = \u0027/femp/mod/proveedores/abmDepositantes.do?target=20\u0027;",
-        "id": 832,
+        "id": 1063,
         "solved": false,
         "line": 206
       }
@@ -2456,14 +1087,14 @@
     "path": "https:\\\\globaldevtools.bbva.com\\bitbucket\\projects\\BEAR\\repos\\femp\\browse\\femp.war\\mod\\proveedores\\js\\pagoACuentaConDebito-seleccion.js",
     "errors": [
       {
-        "content": "\t\tdocument.getElementById(\"formPAC\").setAttribute(\"action\", \"/femp/mod/proveedores/pagoACuentaConDebito.do?target=20\");",
-        "id": 5513,
+        "content": "\t\tdocument.getElementById(\"formPAC\").setAttribute(\"action\",\"/femp/mod/proveedores/pagoACuentaConDebito.do?target=20\");",
+        "id": 9309,
         "solved": false,
         "line": 206
       },
       {
-        "content": "\t\tdocument.getElementById(\"formPAC\").setAttribute(\"action\", \"/femp/mod/proveedores/pagoACuentaConDebito.do?target=40\");",
-        "id": 8083,
+        "content": "\t\tdocument.getElementById(\"formPAC\").setAttribute(\"action\",\"/femp/mod/proveedores/pagoACuentaConDebito.do?target=40\");",
+        "id": 7163,
         "solved": false,
         "line": 220
       }
@@ -2479,26 +1110,27 @@
     "errors": [
       {
         "content": "\t\t\t     \t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs\u0027,",
-        "id": 8068,
+        "id": 8101,
         "solved": false,
         "line": 46
       },
       {
         "content": "     \t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs\u0027,",
-        "id": 8099,
+        "id": 7720,
         "solved": false,
         "line": 172
-      },
-      {
-        "content": "     \t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu_success + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003eBBVA\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 6380,
-        "solved": false,
-        "line": 184
       }
     ],
     "show": true,
     "solved": false,
-    "variables": [],
+    "variables": [
+      {
+        "content": "     \t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu_success + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003eBBVA\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
+        "id": 2102,
+        "solved": false,
+        "line": 184
+      }
+    ],
     "circuito": "proveedores"
   },
   {
@@ -2507,38 +1139,39 @@
     "errors": [
       {
         "content": "\t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU\u0027,",
-        "id": 8567,
+        "id": 9067,
         "solved": false,
-        "line": 844
-      },
-      {
-        "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu_success + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003eBBVA\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 6357,
-        "solved": false,
-        "line": 857
+        "line": 881
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU\u0027,",
-        "id": 6995,
+        "id": 8080,
         "solved": false,
-        "line": 898
-      },
-      {
-        "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doBotonEliminar(\"row1\");\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 7959,
-        "solved": false,
-        "line": 913
+        "line": 935
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU\u0027,",
-        "id": 9060,
+        "id": 9538,
         "solved": false,
-        "line": 961
+        "line": 998
       }
     ],
     "show": true,
     "solved": false,
-    "variables": [],
+    "variables": [
+      {
+        "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu_success + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003eBBVA\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
+        "id": 1626,
+        "solved": false,
+        "line": 894
+      },
+      {
+        "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doBotonEliminar(\"row1\");\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
+        "id": 4829,
+        "solved": false,
+        "line": 950
+      }
+    ],
     "circuito": "proveedores"
   },
   {
@@ -2547,38 +1180,39 @@
     "errors": [
       {
         "content": "\t\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU\u0027,",
-        "id": 7263,
+        "id": 6512,
         "solved": false,
-        "line": 914
-      },
-      {
-        "content": "\t\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doBotonEliminar(row1);\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;\t\t\t\t\t\t",
-        "id": 5043,
-        "solved": false,
-        "line": 926
+        "line": 950
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU\u0027,",
-        "id": 9452,
+        "id": 7326,
         "solved": false,
-        "line": 985
-      },
-      {
-        "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row\u0027 + nextRow +\u0027\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doDelete(\\\u0027row\u0027 + nextRow + \u0027\\\u0027,\\\u0027\u0027+ secuencia +\u0027\\\u0027);\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
-        "id": 8969,
-        "solved": false,
-        "line": 997
+        "line": 1021
       },
       {
         "content": "\t\t\turl : \u0027/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU\u0027,",
-        "id": 7454,
+        "id": 6752,
         "solved": false,
-        "line": 1044
+        "line": 1080
       }
     ],
     "show": true,
     "solved": false,
-    "variables": [],
+    "variables": [
+      {
+        "content": "\t\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row1\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doBotonEliminar(row1);\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;\t\t\t\t\t\t",
+        "id": 1293,
+        "solved": false,
+        "line": 962
+      },
+      {
+        "content": "\t\t\t\t\tvar contentTR = \u0027\u003ctr class=\"odd\" id=\"row\u0027 + nextRow +\u0027\"\u003e\u003ctd align=\"center\"\u003e\u0027 + cbu + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u0027 + descBanco + \u0027\u003c/td\u003e\u003ctd align=\"center\"\u003e\u003ca href=\"javascript:doDelete(\\\u0027row\u0027 + nextRow + \u0027\\\u0027,\\\u0027\u0027+ secuencia +\u0027\\\u0027);\"\u003e\u003cimg src=\"/femp/images/trash.gif\" border=\"0\" /\u003e\u003c/a\u003e\u003c/td\u003e\u003c/tr\u003e\u0027;",
+        "id": 292,
+        "solved": false,
+        "line": 1033
+      }
+    ],
     "circuito": "proveedores"
   }
 ]

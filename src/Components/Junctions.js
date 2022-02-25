@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Container, Row, Col, Form, InputGroup } from "react-bootstrap";
 
 const listaFija = data;
+console.log({data})
 
 const Search = ({ filterList }) => {
   const [searched, setSearched] = useState("");
