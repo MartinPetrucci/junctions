@@ -17,6 +17,7 @@ const Line = ({ line }) => {
       <input value={line.id} type="checkbox" onChange={handleChange} />
       <p style={{ display: "inline" }}>{line.line}</p>
       <p style={lineStyle(line.solved)}>{line.content}</p>
+      <p>{line.variableName}</p>
       <br />
     </>
   );
