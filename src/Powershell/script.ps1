@@ -1,15 +1,7 @@
-#Set-Location "C:\Users\martin.petrucci\Desarrollo\femp-nuevo\femp\femp.war\view\ux"
-
-#$JSONFile = "C:\Users\martin.petrucci\Documents\Powershell\JSES.html"
-#$JSONFile = "C:\Users\martin.petrucci\Documents\Powershell\prueba.json"
 $JSONFile = "C:\Users\martin.petrucci\junctions\src\Data\missingJunctions.json"
 Remove-Item $JSONFile
 New-Item $JSONFile
 Add-Content $JSONFile '['
-
-#Regular Expressions
-#$urlVariableDeclarationRegEx = '\w*\s\*=s*"/femp'
-#$urlVariableDeclarationRegEx= "[(var)(let)(const)]+\s[A-z]+\s{0,1}=\s{0,1}.\/femp"
 
 #Regular Expressions
 $variableDeclaration = "\w*\s*\=\s*[`'`"]/femp"
@@ -18,8 +10,6 @@ $functionCall = "(redirect|ejecutaUrlPdf|htmlFileLoad|redireccionar|winOpenBase)
 $htmlElement = "<.*[`"`']/femp.*>"
 $jQuery = "\`$.+[`"`']/femp"
 
-
-#$containsJunction = 'junction\s*(\+)?(\s*|\.concat).*' + $name + '.*'
 $lineId = 1
 function test-js([string]$path) {
     Set-Location $path 
@@ -80,7 +70,6 @@ function test-js([string]$path) {
             }
             if (-Not $containsJunction) {
                 $name = $file.BaseName
- #               $path = $file.FullName
                 $file.FullName -match ".+femp.war"
                 $mm = $file.FullName.replace($Matches[0], "\femp.war")
                 
@@ -94,7 +83,6 @@ function test-js([string]$path) {
                     localPath = $file.fullName
                     name      = $name
                     path      = $filePath
-#                    path      = $path
                     errors    = $junctionErrors
                     variables = $urlVariables
                     solved = $false
@@ -111,8 +99,6 @@ function test-js([string]$path) {
     }
 }
 
-
-
 $parteNueva = "C:\Users\martin.petrucci\Downloads\femp.war\view\ux"
 $parteVieja = "C:\Users\martin.petrucci\Downloads\femp.war\mod"
 test-js($parteNueva)
@@ -121,8 +107,4 @@ Add-Content $JSONFile ']'
 Invoke-Item $JSONFile
 Set-Location "C:\Users\martin.petrucci\junctions\src\Powershell"
 
-#$jsonList = ConvertTo-Json $finalList
-#write-host $jsonList
-#Add-Content $JSONFile $jsonList
-#Add-Content 
 
