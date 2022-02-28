@@ -1,0 +1,163 @@
+contratos-inicio
+old ->		url: '/femp/do/ux/administracion/documentos/firma/rechazar?' + $.param(filtrosRechazo),
+new ->		url: junctionGlobal + '/femp/do/ux/administracion/documentos/firma/rechazar?' + $.param(filtrosRechazo),
+contratos-visualizar
+old ->		url: '/femp/do/ux/administracion/documentos/firma/cancelarFirma?' + $.param(filters),
+new ->		url: junctionGlobal + '/femp/do/ux/administracion/documentos/firma/cancelarFirma?' + $.param(filters),
+avisosMensajes
+old ->				url: "/femp/do/ux/avisos/mensajes/saveSubscripcion",	
+new ->				url: junctionGlobal + "/femp/do/ux/avisos/mensajes/saveSubscripcion",	
+old ->			url: "/femp/do/ux/avisos/mensajes/saveAgenda",	
+new ->			url: junctionGlobal + "/femp/do/ux/avisos/mensajes/saveAgenda",	
+adelantoCupones-nuevo
+altaComercio-resumen
+old ->		url: "/femp/do/ux/comercios/tramites/altaComercio/confirmacion",
+new ->		url: junctionGlobal + "/femp/do/ux/comercios/tramites/altaComercio/confirmacion",
+altaComercio-subidaArchivos
+old ->		url: "/femp/do/ux/comercios/tramites/altaComercio/agregarDocumento?" + jQuery.param(filters),
+new ->		url: junctionGlobal + "/femp/do/ux/comercios/tramites/altaComercio/agregarDocumento?" + jQuery.param(filters),
+old ->		url: "/femp/do/ux/comercios/tramites/altaComercio/eliminarDocumento?" + jQuery.param(filters),
+new ->		url: junctionGlobal + "/femp/do/ux/comercios/tramites/altaComercio/eliminarDocumento?" + jQuery.param(filters),
+cierreCambio-cotizacion
+old ->		url : '/femp/do/ux/comex/cierre/cambio/aceptarTipoCambio?' + $.param(filters),
+new ->		url : junctionGlobal + '/femp/do/ux/comex/cierre/cambio/aceptarTipoCambio?' + $.param(filters),
+cierreCambio-inicio
+old ->		url : '/femp/do/ux/comex/cierre/cambio/caducoOperacion?' + jQuery.param(filters),
+new ->		url : junctionGlobal + '/femp/do/ux/comex/cierre/cambio/caducoOperacion?' + jQuery.param(filters),
+old ->		url: '/femp/do/ux/comex/cierre/cambio/eliminarPendiente?' + jQuery.param(filters),
+new ->		url: junctionGlobal + '/femp/do/ux/comex/cierre/cambio/eliminarPendiente?' + jQuery.param(filters),
+old ->		url: '/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?' + jQuery.param(filters),
+new ->		url: junctionGlobal + '/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?' + jQuery.param(filters),
+old ->		url: '/femp/do/ux/comex/cierre/cambio/obtenerTiposOperaciones?tipoOperacion='.concat(tipoOperacion) ,
+new ->		url: junctionGlobal + '/femp/do/ux/comex/cierre/cambio/obtenerTiposOperaciones?tipoOperacion='.concat(tipoOperacion) ,
+old ->			url: '/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?'  + jQuery.param(filters),
+new ->			url: junctionGlobal + '/femp/do/ux/comex/cierre/cambio/obtenerCotizacion?'  + jQuery.param(filters),
+CCOMP_CartaCompromiso
+old ->            url: "/femp/do/ux/comex/modulos/CCOMP/aceptar",
+new ->            url: junctionGlobal + "/femp/do/ux/comex/modulos/CCOMP/aceptar",
+consultaCertificaciones
+old ->		        url: '/femp/do/ux/comex/seguimientoexportacion/certificacionsecoexpo/getDetalle',
+new ->		        url: junctionGlobal + '/femp/do/ux/comex/seguimientoexportacion/certificacionsecoexpo/getDetalle',
+altacuenta
+old ->		    url: '/femp/do/ux/cuentas/altaCuentas/consulta?'+jQuery.param(filters),
+new ->		    url: junctionGlobal + '/femp/do/ux/cuentas/altaCuentas/consulta?'+jQuery.param(filters),
+old ->		url: '/femp/do/ux/cuentas/altaCuentas/eliminar?' + $.param(filtroCancelar),
+new ->		url: junctionGlobal + '/femp/do/ux/cuentas/altaCuentas/eliminar?' + $.param(filtroCancelar),
+nuevacuenta-confirmacion
+old ->		url: "/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaConfirmar?" + $.param(params),
+new ->		url: junctionGlobal + "/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaConfirmar?" + $.param(params),
+old ->		url: "/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaPopUp?" + $.param(params),
+new ->		url: junctionGlobal + "/femp/do/ux/cuentas/altaCuentas/constitucion/preAltaPopUp?" + $.param(params),
+portadaV2
+old ->		    	url: '/femp/do/ux/cuentas/campania/enviarMailCampania',
+new ->		    	url: junctionGlobal + '/femp/do/ux/cuentas/campania/enviarMailCampania',
+exencion-impositiva-listado
+old ->	        url: "/femp/do/ux/exencion/impositiva/validarSolicitud",
+new ->	        url: junctionGlobal + "/femp/do/ux/exencion/impositiva/validarSolicitud",
+exencion-impositiva
+old ->		url: '/femp/do/ux/cuentas/portada/buscarEjecutivoDeCuenta',
+new ->		url: junctionGlobal + '/femp/do/ux/cuentas/portada/buscarEjecutivoDeCuenta',
+nuevoTitulo
+old ->	        url: "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularImporte",
+new ->	        url: junctionGlobal + "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularImporte",
+old ->	        url: "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularCantidadNominal",
+new ->	        url: junctionGlobal + "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/calcularCantidadNominal",
+old ->	        url: "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/bancos?"+jQuery.param(filters),
+new ->	        url: junctionGlobal + "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/bancos?"+jQuery.param(filters),
+old ->		        url: "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?"+jQuery.param(filters),
+new ->		        url: junctionGlobal + "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?"+jQuery.param(filters),
+old ->		        url: "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?"+jQuery.param(filters),
+new ->		        url: junctionGlobal + "/femp/do/ux/inversiones/instrucciones/titulos/nuevo/recuperar/especies?"+jQuery.param(filters),
+nuevoPlazoFijo
+old ->            url: '/femp/do/ux/inversiones/plazo/fijo/constitucion/tasas?'+$.param(params),
+new ->            url: junctionGlobal + '/femp/do/ux/inversiones/plazo/fijo/constitucion/tasas?'+$.param(params),
+monitor
+confirmarTramite
+nuevoRecuperoDocumentacion
+pendienteFirma
+recuperoDocumentacion
+solicitudTramite
+solicitudTramiteHipoteca
+altaTarjeta-resumen
+eliminarTarjeta
+gestionTarjetas-inicio
+baja
+old ->			url: '/femp/do/ux/token/baja/guardar?'+jQuery.param(filters),
+new ->			url: junctionGlobal + '/femp/do/ux/token/baja/guardar?'+jQuery.param(filters),
+gestion
+old ->//		url: '/femp/do/ux/token/gestion/firmar?' + $.param(filters),
+new ->//		url: junctionGlobal + '/femp/do/ux/token/gestion/firmar?' + $.param(filters),
+old ->		url: '/femp/do/ux/token/gestion/eliminar?' + $.param(filtrosBorrado),
+new ->		url: junctionGlobal + '/femp/do/ux/token/gestion/eliminar?' + $.param(filtrosBorrado),
+documentacionLegal
+old ->	    url: '/femp/do/ux/utilidades/documentacion/envio/legal/actualizarCantidadDeEmpleados',
+new ->	    url: junctionGlobal + '/femp/do/ux/utilidades/documentacion/envio/legal/actualizarCantidadDeEmpleados',
+financiamientoExportacionVigentes-listado
+simulacionVencimiento
+cuentaExtractoFechasControlD-Async
+old ->		url : "/femp/mod/cuentas/eResumen.do?dispatch=cargarResumen&ts="+ (new Date().getTime()) + "&indiceFecha="+ indice + "&refcli="+refcli + "&cta="+refcta + "&origen="+origen + "&sus="+sus + "&ctra="+ctra + "&nCta="+nCta,
+new ->		url : junctionGlobal + "/femp/mod/cuentas/eResumen.do?dispatch=cargarResumen&ts="+ (new Date().getTime()) + "&indiceFecha="+ indice + "&refcli="+refcli + "&cta="+refcta + "&origen="+origen + "&sus="+sus + "&ctra="+ctra + "&nCta="+nCta,
+eResumenConsulta
+old -> 				url : "/femp/mod/cuentas/eResumen.do?dispatch=guardarSolapas&ts="+ (new Date().getTime()) + "&sc="+ sc + "&st="+ st,
+new -> 				url : junctionGlobal + "/femp/mod/cuentas/eResumen.do?dispatch=guardarSolapas&ts="+ (new Date().getTime()) + "&sc="+ sc + "&st="+ st,
+compraAccionesBonos-filtro
+old ->		url: "/femp/mod/inversiones/compraAccionesBonosNew.do?accion=consultarPermisos&cuenta="+cuentaCustodia,
+new ->		url: junctionGlobal + "/femp/mod/inversiones/compraAccionesBonosNew.do?accion=consultarPermisos&cuenta="+cuentaCustodia,
+formulario-suscripcionFCI
+old ->        url: '/femp/mod/inversiones/suscripcionRescate.do?accion=simularSuscripcion',
+new ->        url: junctionGlobal + '/femp/mod/inversiones/suscripcionRescate.do?accion=simularSuscripcion',
+plazofijo-constitucion-formulario
+old ->			url: "/femp/mod/inversiones/plazoFijoConstitucion.do?metodo=actualizarTasaInteres&claveAsunto="+claveAsunto,	
+new ->			url: junctionGlobal + "/femp/mod/inversiones/plazoFijoConstitucion.do?metodo=actualizarTasaInteres&claveAsunto="+claveAsunto,	
+ventaAccionesBonos-filtro
+old ->		url: "/femp/mod/inversiones/ventaAccionesBonosNew.do?accion=consultarPermisos&cuenta="+cuentaCustodia,
+new ->		url: junctionGlobal + "/femp/mod/inversiones/ventaAccionesBonosNew.do?accion=consultarPermisos&cuenta="+cuentaCustodia,
+abmRetencionesDeduccionesGrilla
+armadoPago-confeccionar
+old ->			url:	"/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes",
+new ->			url:	junctionGlobal + "/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes",
+old ->			url:	"/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes&obtenerDed=true",
+new ->			url:	junctionGlobal + "/femp/mod/pagos/confeccionarPago.do?target=actualizaComprobantes&obtenerDed=true",
+old ->		url:	"/femp/mod/pagos/confeccionarPago.do?target=eliminaComprobante&idComprobante=" + idComprobante,
+new ->		url:	junctionGlobal + "/femp/mod/pagos/confeccionarPago.do?target=eliminaComprobante&idComprobante=" + idComprobante,
+armadoPago-confirma
+nominasConsultaNominas-filtros
+old ->			url: "/femp/mod/pagos/jspService_ConsultaNominas.jsp",
+new ->			url: junctionGlobal + "/femp/mod/pagos/jspService_ConsultaNominas.jsp",
+nominasConsultaPagos-filtros
+old ->			url: "/femp/mod/pagos/jspService_ConsultaPagos.jsp",
+new ->			url: junctionGlobal + "/femp/mod/pagos/jspService_ConsultaPagos.jsp",
+pagoDeuda-confeccionar
+old ->		url:	"/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts=" +
+new ->		url:	junctionGlobal + "/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts=" +
+pagoDeuda-listado
+old ->			url : "/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts="
+new ->			url : junctionGlobal + "/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts="
+old ->			url : "/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts="
+new ->			url : junctionGlobal + "/femp/mod/pagos/pagoDeuda-actualizaSeleccionados-jspServices.jsp?ts="
+old ->			url : "/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts="
+new ->			url : junctionGlobal + "/femp/mod/pagos/pagoDeuda-consultaSeleccionados-jspServices.jsp?ts="
+solicitudTarjetasDepositantes-listado
+old ->          url: "/femp/mod/pagos/solicitudTarjetasDepositantes.do?accion=clickCheck" + "&numeroDepositante=" + numeroDepositante,
+new ->          url: junctionGlobal + "/femp/mod/pagos/solicitudTarjetasDepositantes.do?accion=clickCheck" + "&numeroDepositante=" + numeroDepositante,
+abmDepositantes-listado
+pagoACuentaConDebito-seleccion
+pagoProvConsProveedores-listadoCash
+old ->			     				url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs',
+new ->			     				url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs',
+old ->     				url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs',
+new ->     				url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=consCBUs',
+pagoProvModifProveedores-alta
+old ->				url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU',
+new ->				url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU',
+old ->			url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU',
+new ->			url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU',
+old ->			url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU',
+new ->			url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU',
+pagoProvModifProveedores-modi
+old ->				url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU',
+new ->				url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaBBVA2CBU',
+old ->			url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU',
+new ->			url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=agregaCBU',
+old ->			url : '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU',
+new ->			url : junctionGlobal + '/femp/mod/proveedores/pagoProvAbmProveedores.do?operacion=eliminaCBU',

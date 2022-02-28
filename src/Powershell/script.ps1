@@ -50,13 +50,14 @@ function test-js([string]$path) {
                         #valida que tenga la junction
                         #no tiene la junction, puede que sea una declaracion de variable
                         if ($lineContent -Match $variableDeclaration) {
-                            #$variableName = ($Matches[0] -split "=")[0].Trim() #guardo el nombre de la variable
+                            $variableName = ($Matches[0] -split "=")[0].Trim() #guardo el nombre de la variable
 
                             $varObj = @{
                                 id = Get-Random -Minimum 1 -Maximum 5000
                                 line    = $lineNumber
                                 content = [string]$lineContent
                                 solved = $false
+                                variableName = $variableName
                             }
                             $urlVariables += $varObj #lo agrego a la lista de variables
                         }
@@ -90,6 +91,7 @@ function test-js([string]$path) {
                 $circuito = $circuito.replace("ux\", "")
                 $circuito = $circuito.replace("\js", "")
                 $finalObject = @{
+                    localPath = $file.fullName
                     name      = $name
                     path      = $filePath
 #                    path      = $path
