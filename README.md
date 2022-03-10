@@ -1,3 +1,8 @@
+# About the project
+
+This project was created for looking inside all the Javascript files in the source code of the app, detect throughout regular expressions the missing variables that are necessary for the right redirection to the server in the backend.
+The scripts for detect and solve the problem were created in Powershell. React was used as frontend view for manage the obtained data
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
